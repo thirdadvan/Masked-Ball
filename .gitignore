@@ -1,0 +1,89 @@
+# =========================
+# Unity generated
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Unity cache / artifacts
+UserSettings/
+Recordings/
+
+# Addressables cache
+Assets/AddressableAssetsData/*/Build/
+Assets/AddressableAssetsData/*/PlayerBuildData/
+
+# =========================
+# Visual Studio / Rider / VS Code
+# =========================
+.vs/
+.vscode/
+.idea/
+
+# C# project user files
+*.csproj
+*.csproj.user
+*.suo
+*.user
+*.userprefs
+
+# Rider
+*.DotSettings.user
+
+# =========================
+# Build results
+# =========================
+*.apk
+*.aab
+*.exe
+*.app
+*.unitypackage
+*.xcodeproj
+*.xcworkspace
+
+# =========================
+# Logs & crash dumps
+# =========================
+*.log
+*.stackdump
+crashlytics-build.properties
+
+# =========================
+# OS generated
+# =========================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =========================
+# Temporary / backup files
+# =========================
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# =========================
+# Unity meta handling
+# =========================
+# IMPORTANT: Keep .meta files
+!*.meta
+
+# =========================
+# Test / coverage
+# =========================
+TestResults/
+Coverage/
+
+# =========================
+# NuGet (if used outside Unity)
+# =========================
+packages/
+*.nupkg
