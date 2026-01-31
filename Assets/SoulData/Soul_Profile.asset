@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a69d97e0f8cf4adda5715fcbd3c2871, type: 3}
+  m_Name: Soul_Profile
+  m_EditorClassIdentifier: 
+  characterID: 1
+  displayName: "\u7EB5\u706B\u72AF"
+  maskAlignment: 0
+  trueAlignment: 1
+  strength: 2
+  sin: 7
+  deathType: 4
+  deathDetail: overexcitement while watching the fire scene
+  backstory: "Jean-Pierre Morineau, fifty-seven years old, an importer of fine wines.
+    \r\nOnce prosperous, deeply in debt at the time of his death. \r\n\r\nThree years
+    ago, his business was still the most respectable French wine supplier in the
+    city. He was a regular guest at high-society parties, his business card printed
+    in four different languages. He believed his success would last forever \u2014
+    that his ascent would never stop. \r\n\r\nBut two years ago, the market shifted.
+    Young people began favoring craft beer and local low-alcohol fruit wines. His
+    Bordeaux stock piled up, untouched, filling entire warehouses. One year ago,
+    he turned to loan sharks to stay afloat, using the apartment building as collateral
+    \u2014 the only inheritance his father had left him. \r\n\r\nSix months ago,
+    he realized he could no longer repay his debts. \r\n\r\nThat was when he began
+    studying insurance policies. \r\n\r\nFire insurance. Accident insurance. Property
+    damage coverage. \r\n\r\nHe calculated carefully: if the building burned down,
+    the payout would be four to five times his total debt. Enough for a comeback.
+    Enough to become that Jean-Pierre again \u2014 the one who dominated conversations
+    at parties, glass in hand. \r\n\r\nHe chose Saturday, 3:00 a.m. \r\n\r\nMost
+    tenants would be asleep. The fire wouldn\u2019t be extinguished too quickly.
+    His wife and daughter were spending the weekend at his mother-in-law\u2019s place
+    in the countryside. And he himself \u2014 of course \u2014 would be perfectly
+    absent, having gone out \u201Con a sudden late-night walk to clear his head.\u201D
+    \r\n\r\nHe never thought anyone would die. \r\n\r\nOr rather, he did \u2014 but
+    he convinced himself otherwise. The fire alarm would go off. The fire brigade
+    would arrive. The tenants weren\u2019t idiots; they would run. At worst, a few
+    floors would burn, the tenants would flee, and he would walk away with a check
+    and a brand-new life. \r\n\r\nHe watched the flames rise from a caf\xE9 across
+    the street. \r\n\r\nHis heart began to race. \r\n\r\nNot from fear. \r\n\r\nFrom
+    excitement. \r\n\r\nWhen the windows on the fourth floor shattered and fire burst
+    outward, he felt a pure, almost obscene thrill. \r\n\r\nThis was his fire. \r\nHis
+    masterpiece. \r\nHe was burning down the past with his own hands \u2014 welcoming
+    the future. \r\n\r\nThen his heart stopped. \r\n\r\nWhen he died, a twisted,
+    liver-colored grin was still frozen on his face. "
+  pocketItems:
+  - id: Soul06Item01
+    displayName: 'Matchbox '
+    description: "High-end cigar matches in a wooden case, stamped with the logo
+      of a private members\u2019 cigar lounge. "
+    icon: {fileID: 0}
+    relatedEvidenceIds: []
+  - id: Soul06Item02
+    displayName: 'Insurance Policy Copy '
+    description: 'Neatly folded, edges worn from repeated handling '
+    icon: {fileID: 0}
+    relatedEvidenceIds: []
+  - id: Soul06Item03
+    displayName: "Caf\xE9 Receipt "
+    description: 'Dated the night of the fire, timestamp: 2:47 a.m. '
+    icon: {fileID: 0}
+    relatedEvidenceIds: []
+  - id: Soul06Item04
+    displayName: 'Business Card Holder '
+    description: 'Genuine leather, embossed with his name in cursive '
+    icon: {fileID: 0}
+    relatedEvidenceIds: []
+  dialogue:
+    startNodeId: Soul01Dia01
+    nodes:
+    - nodeId: Soul01Dia01
+      type: 0
+      text: Who are you?
+      next:
+      - Soul01Dia02
+      requiredEvidenceIds: []
+    - nodeId: Soul01Dia02
+      type: 1
+      text: " \u201CJean-Pierre Morineau. Wine merchant.\u201D"
+      next:
+      - Soul01Dia03
+      requiredEvidenceIds: []
+    - nodeId: Soul01Dia04
+      type: 1
+      text: "(He instinctively reaches for a business card \u2014 then realizes there\u2019s
+        no need here.) \r\n\r\n\u201CAh\u2026 former wine merchant. A bit of trouble
+        in business, you see. The economy isn\u2019t kind, and young people no longer
+        know how to appreciate good wine\u2026\u201D "
+      next:
+      - Soul01Dia05
+      requiredEvidenceIds: []
+    - nodeId: Soul01Dia06
+      type: 0
+      text: "(He sighs, sorrow measured and appropriate.) \r\n\r\n\u201CBut none
+        of that matters now, does it? We\u2019re all here already.\u201D "
+      next: []
+      requiredEvidenceIds: []
+  skullRemark: " \u201CWonder if his corpse is gonna get hung on a streetlamp.\u201D"
+  luciferRemark: "\u201CAh, pride. My favorite sin.\u201D \r\n\r\n(Pause.) \r\n\r\n\u201CHe
+    never imagined he could fail. Meticulous planning. Perfect timing. An airtight
+    alibi. The only thing he didn\u2019t account for was a heart too excited to keep
+    beating.\u201D \r\n\r\n(Low chuckle.) \r\n\r\n\u201CWhat was he thinking as he
+    died? The insurance payout? His new life? Or the people he set ablaze?\u201D
+    \r\n\r\n\u201CThe answer is: none of them.\u201D \r\n\r\n\u201CWhen he died,
+    he was thinking \u2014 \u2018I won.\u2019\u201D "

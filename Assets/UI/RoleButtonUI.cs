@@ -34,7 +34,6 @@ public class RoleButtonUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         Sprite s = roleSprite;
         if (s == null && iconImage != null) s = iconImage.sprite;
 
-      
     }
 
     void SetGlow(bool on)

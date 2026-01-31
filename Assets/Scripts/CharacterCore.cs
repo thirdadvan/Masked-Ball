@@ -22,6 +22,6 @@ namespace MaskedBall.CharacterCore
     }
     public enum Alignment { Good, Evil }
     public enum StrengthTier { Weak, Normal, Strong }
-    public enum SinType { Greed, Wrath, Lust, Envy, Pride, Sloth, Gluttony, None }
-    public enum DeathType { Suffocation, Burn, Fall, Drowning, Unknown }
+    public enum SinType { Greed, Wrath, Lust, Envy, Pride, Sloth, Gluttony, Superbia,None }
+    public enum DeathType { Suffocation, Burn, Fall, Drowning, HeartAttack,Unknown }
 }
