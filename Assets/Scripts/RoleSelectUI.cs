@@ -6,7 +6,7 @@ public class RoleSelectUI : MonoBehaviour
     [Header("Focus Layer")]
     public GameObject focusLayer;   // FocusLayer
     public Image dim;               // FocusLayer/Dim
-    public Image focusIcon;         // FocusLayer/FocusIcon
+    public Image focusSprite;         // FocusLayer/FocusIcon
 
     [Header("Close")]
     public Button closeButton;      // CloseButton
@@ -28,13 +28,13 @@ public class RoleSelectUI : MonoBehaviour
         if (focusLayer != null) focusLayer.SetActive(true);
         if (dim != null) dim.gameObject.SetActive(true);
 
-        if (focusIcon != null)
+        if (focusSprite != null)
         {
-            focusIcon.gameObject.SetActive(true);
-            focusIcon.sprite = null; // placebo
+            focusSprite.gameObject.SetActive(true);
+            focusSprite.sprite = null; // placebo
 
             // 居中 + 放大（FocusIcon 要是 Middle Center Anchor）
-            var rt = focusIcon.rectTransform;
+            var rt = focusSprite.rectTransform;
             rt.anchoredPosition = Vector2.zero;
             rt.localScale = Vector3.one * focusedScale;
         }
@@ -44,7 +44,8 @@ public class RoleSelectUI : MonoBehaviour
 
     public void HideFocus()
     {
-        if (focusIcon != null) focusIcon.gameObject.SetActive(false);
+        Debug.Log("hide focus");
+        if (focusSprite != null) focusSprite.gameObject.SetActive(false);
         if (dim != null) dim.gameObject.SetActive(false);
         if (focusLayer != null) focusLayer.SetActive(false);
 
