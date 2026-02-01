@@ -25,7 +25,6 @@ public class Character : MonoBehaviour
         Debug.Log($"Clicked character: {profile.displayName}");
 
         CharacterFocus.ShowRole(profile, characterSprite);
-        ItemSlots.ShowItemsFromCharacter(profile);
 
     }
 
