@@ -13,28 +13,128 @@ MonoBehaviour:
   m_Name: Soul_Profile_03_Bystander
   m_EditorClassIdentifier: 
   characterID: 3
-  displayName: "The Bystander"
+  displayName: The Bystander
   maskAlignment: 0
   trueAlignment: 1
   strength: 0
   sin: 4
   deathType: 1
-  deathDetail: "Smoke inhalation while waiting for someone else to handle the fire"
-  backstory: "Eileen Walsh, forty-one years old, an accountant.\r\n\r\nShe worked sixty hours a week at a mid-sized firm downtown. Numbers. Spreadsheets. Quarterly reports. Her life was measured in billable hours and coffee cups.\r\n\r\nShe lived alone in a small apartment on the third floor. No pets - she was never home enough to take care of one. No plants - they always died. Just her, a bed, and an alarm clock she'd learned to hate.\r\n\r\nThat night, she'd gotten home at 11 PM. Late, but not unusually so. Tax season was coming. Everyone was pulling long hours.\r\n\r\nShe was so tired.\r\n\r\nShe didn't shower. Didn't eat. Just fell into bed with her work clothes still on, too exhausted to even take off her shoes.\r\n\r\nAt 3:17 AM, she smelled smoke.\r\n\r\nShe thought about getting up. She really did. But her body felt like lead. Her eyes wouldn't open all the way. Surely someone else had already called the fire department. Surely someone was handling it.\r\n\r\nJust one more minute.\r\n\r\nShe heard shouting in the hallway. Footsteps. Someone pounding on doors. She should get up. She knew she should get up.\r\n\r\nBut she was so tired.\r\n\r\nJust one more minute.\r\n\r\nThe smoke got thicker. She could see it now, curling under her door, orange light flickering through the gap. She reached for her phone. Dead - she'd forgotten to charge it.\r\n\r\nShe should get up.\r\n\r\nShe didn't.\r\n\r\nWhen they found her body, she was still in bed. The covers pulled up to her chin. Her eyes closed. She looked almost peaceful.\r\n\r\nThe coroner said she probably never fully woke up. The smoke got her before the flames did.\r\n\r\nBut that wasn't quite true. In her last moments, as the darkness closed in, Eileen Walsh was thinking one thing:\r\n\r\nJust one more minute.\r\n\r\nSomeone else will handle it."
+  deathDetail: Smoke inhalation while waiting for someone else to handle the fire
+  backstory: 'Eileen Walsh, forty-one years old, an accountant.
+
+    
+
+    She
+    worked sixty hours a week at a mid-sized firm downtown. Numbers. Spreadsheets.
+    Quarterly reports. Her life was measured in billable hours and coffee cups.
+
+    
+
+    She
+    lived alone in a small apartment on the third floor. No pets - she was never
+    home enough to take care of one. No plants - they always died. Just her, a bed,
+    and an alarm clock she''d learned to hate.
+
+    
+
+    That night, she''d gotten
+    home at 11 PM. Late, but not unusually so. Tax season was coming. Everyone was
+    pulling long hours.
+
+    
+
+    She was so tired.
+
+    
+
+    She didn''t shower.
+    Didn''t eat. Just fell into bed with her work clothes still on, too exhausted
+    to even take off her shoes.
+
+    
+
+    At 3:17 AM, she smelled smoke.
+
+    
+
+    She
+    thought about getting up. She really did. But her body felt like lead. Her eyes
+    wouldn''t open all the way. Surely someone else had already called the fire department.
+    Surely someone was handling it.
+
+    
+
+    Just one more minute.
+
+    
+
+    She
+    heard shouting in the hallway. Footsteps. Someone pounding on doors. She should
+    get up. She knew she should get up.
+
+    
+
+    But she was so tired.
+
+    
+
+    Just
+    one more minute.
+
+    
+
+    The smoke got thicker. She could see it now, curling
+    under her door, orange light flickering through the gap. She reached for her
+    phone. Dead - she''d forgotten to charge it.
+
+    
+
+    She should get up.
+
+    
+
+    She
+    didn''t.
+
+    
+
+    When they found her body, she was still in bed. The covers
+    pulled up to her chin. Her eyes closed. She looked almost peaceful.
+
+    
+
+    The
+    coroner said she probably never fully woke up. The smoke got her before the flames
+    did.
+
+    
+
+    But that wasn''t quite true. In her last moments, as the darkness
+    closed in, Eileen Walsh was thinking one thing:
+
+    
+
+    Just one more minute.
+
+    
+
+    Someone
+    else will handle it.'
   pocketItems:
   - id: Soul03Item01
-    displayName: "Dead Phone"
-    description: "Battery at 0%. The charging cable is still on her nightstand, unplugged."
-    icon: {fileID: 0}
+    displayName: Dead Phone
+    description: Battery at 0%. The charging cable is still on her nightstand, unplugged.
+    icon: {fileID: 21300000, guid: 4595aa3fec219a84493f6b12ae4c06a0, type: 3}
     relatedEvidenceIds: []
   - id: Soul03Item02
-    displayName: "Work Badge"
-    description: "Morrison & Associates, Accounting. Her photo shows dark circles under her eyes."
+    displayName: Work Badge
+    description: Morrison & Associates, Accounting. Her photo shows dark circles
+      under her eyes.
     icon: {fileID: 0}
     relatedEvidenceIds: []
   - id: Soul03Item03
-    displayName: "Sleeping Pills"
-    description: "Prescription bottle, half empty. For chronic insomnia."
+    displayName: Sleeping Pills
+    description: Prescription bottle, half empty. For chronic insomnia.
     icon: {fileID: 0}
     relatedEvidenceIds: []
   dialogue:
@@ -42,7 +142,7 @@ MonoBehaviour:
     nodes:
     - nodeId: Soul03Start
       type: 2
-      text: ""
+      text: 
       next:
       - Soul03Dia04
       - Soul03Dia03
@@ -51,7 +151,10 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul03Dia01
       type: 1
-      text: "Eileen:\nEileen Walsh... accountant... sorry, I'm too tired, can't remember."
+      text: 'Eileen:
+
+        Eileen Walsh... accountant... sorry, I''m too tired,
+        can''t remember.'
       next:
       - Soul03Dia04
       - Soul03Dia03
@@ -59,7 +162,10 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul03Dia02
       type: 1
-      text: "Eileen:\nSmelled smoke, thought someone would handle it. Then I was here."
+      text: 'Eileen:
+
+        Smelled smoke, thought someone would handle it. Then
+        I was here.'
       next:
       - Soul03Dia04
       - Soul03Dia03
@@ -67,7 +173,10 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul03Dia03
       type: 1
-      text: "Eileen:\nI was sleeping. Too tired. Wanted to lie down just one more minute."
+      text: 'Eileen:
+
+        I was sleeping. Too tired. Wanted to lie down just
+        one more minute.'
       next:
       - Soul03Dia04
       - Soul03Dia02
@@ -75,7 +184,9 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul03Dia04
       type: 1
-      text: "Eileen:\nI didn't do anything. I was just too tired."
+      text: 'Eileen:
+
+        I didn''t do anything. I was just too tired.'
       next:
       - Soul03Dia03
       - Soul03Dia02
@@ -83,47 +194,79 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul03Dia05
       type: 0
-      text: "Why didn't you run when you smelled smoke?"
+      text: Why didn't you run when you smelled smoke?
       next:
       - Soul03Dia05R
       requiredEvidenceIds: []
     - nodeId: Soul03Dia05R
       type: 1
-      text: "Eileen:\nI thought someone would handle it. Just wait a little longer."
+      text: 'Eileen:
+
+        I thought someone would handle it. Just wait a little
+        longer.'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul03Dia06
       type: 0
-      text: "Did you see the flames?"
+      text: Did you see the flames?
       next:
       - Soul03Dia06R
       requiredEvidenceIds: []
     - nodeId: Soul03Dia06R
       type: 1
-      text: "Eileen:\nYes. Orange-red. Should go out soon, right?"
+      text: 'Eileen:
+
+        Yes. Orange-red. Should go out soon, right?'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul03Dia07
       type: 0
-      text: "Why didn't you call for help?"
+      text: Why didn't you call for help?
       next:
       - Soul03Dia07R
       requiredEvidenceIds: []
     - nodeId: Soul03Dia07R
       type: 1
-      text: "Eileen:\nI thought someone already did. Someone always does, right?"
+      text: 'Eileen:
+
+        I thought someone already did. Someone always does,
+        right?'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul03Dia08
       type: 0
-      text: "Do you regret it?"
+      text: Do you regret it?
       next:
       - Soul03Dia08R
       requiredEvidenceIds: []
     - nodeId: Soul03Dia08R
       type: 1
-      text: "Eileen:\nI should have gotten up earlier. But I was too tired. Just wait a little longer..."
+      text: 'Eileen:
+
+        I should have gotten up earlier. But I was too tired.
+        Just wait a little longer...'
       next: []
       requiredEvidenceIds: []
-  skullRemark: "She didn't do anything bad. But she didn't do anything at all. What does that count as?"
-  luciferRemark: "'Just wait a little longer' - what gentle words.\r\n\r\n(Pause.)\r\n\r\nAnd then there was no 'then.'\r\n\r\nSloth is such a quiet sin. No malice. No intent. Just... absence. The sin of the empty chair. The unanswered call. The door that stayed closed.\r\n\r\nShe never hurt anyone. She simply wasn't there when it mattered."
+  skullRemark: She didn't do anything bad. But she didn't do anything at all. What
+    does that count as?
+  luciferRemark: '''Just wait a little longer'' - what gentle words.
+
+    
+
+    (Pause.)
+
+    
+
+    And
+    then there was no ''then.''
+
+    
+
+    Sloth is such a quiet sin. No malice.
+    No intent. Just... absence. The sin of the empty chair. The unanswered call.
+    The door that stayed closed.
+
+    
+
+    She never hurt anyone. She simply wasn''t
+    there when it mattered.'

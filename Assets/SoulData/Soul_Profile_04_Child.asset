@@ -13,33 +13,152 @@ MonoBehaviour:
   m_Name: Soul_Profile_04_Child
   m_EditorClassIdentifier: 
   characterID: 4
-  displayName: "The Child"
+  displayName: The Child
   maskAlignment: 1
   trueAlignment: 0
   strength: 0
   sin: 0
   deathType: 1
-  deathDetail: "Smoke inhalation, locked in her room by the babysitter"
-  backstory: "Emily Chen, seven years old, first grade.\r\n\r\nShe lived with her mother in a small apartment on the fourth floor. Her father had left before she was born - she'd never met him. Her mother worked nights at a restaurant downtown, sometimes two shifts back to back.\r\n\r\nEmily was used to being alone.\r\n\r\nThat night, her mother had hired a babysitter - a young woman from the agency, someone Emily had never met before. The babysitter had seemed nice at first. She'd made Emily dinner, let her watch cartoons.\r\n\r\nBut then the babysitter's phone rang.\r\n\r\n\"Stay in your room,\" she told Emily. \"Don't come out until I get back.\"\r\n\r\nEmily heard the lock click. She heard the front door open and close.\r\n\r\nShe sat on her bed with her stuffed rabbit, Mr. Whiskers, and waited. She was a good girl. She knew how to wait.\r\n\r\nShe didn't know how much time passed. She might have fallen asleep.\r\n\r\nShe woke up to heat. To the smell of something burning. Orange light was flickering under her door, and the air was getting hard to breathe.\r\n\r\nShe tried the door. Locked.\r\n\r\nShe screamed. She pounded. She cried for her mother, for anyone.\r\n\r\nNo one came.\r\n\r\nShe retreated to the corner of her room, hugging Mr. Whiskers, making herself as small as possible. The smoke was everywhere now, thick and black, stinging her eyes, filling her lungs.\r\n\r\nThen the door exploded inward.\r\n\r\nA man in a heavy coat. He picked her up. He smelled like smoke and sweat and something metallic.\r\n\r\n\"I'm scared,\" she told him.\r\n\r\n\"Don't be afraid,\" he said.\r\n\r\nShe believed him.\r\n\r\nShe doesn't remember what happened after that. Just darkness. Just peace.\r\n\r\nWhen they found her, she was still in the firefighter's arms. Her small fingers were clutched around his collar. Mr. Whiskers was pressed between them, half-melted, cotton spilling out.\r\n\r\nHer mother identified the body the next morning. She didn't cry. She just stared.\r\n\r\nThe coroner found something else in Emily's stomach. Residue from sleeping pills - the kind you'd give an adult, not a child. Crushed up. Mixed into something sweet."
+  deathDetail: Smoke inhalation, locked in her room by the babysitter
+  backstory: 'Emily Chen, seven years old, first grade.
+
+    
+
+    She lived with
+    her mother in a small apartment on the fourth floor. Her father had left before
+    she was born - she''d never met him. Her mother worked nights at a restaurant
+    downtown, sometimes two shifts back to back.
+
+    
+
+    Emily was used to being
+    alone.
+
+    
+
+    That night, her mother had hired a babysitter - a young woman
+    from the agency, someone Emily had never met before. The babysitter had seemed
+    nice at first. She''d made Emily dinner, let her watch cartoons.
+
+    
+
+    But
+    then the babysitter''s phone rang.
+
+    
+
+    "Stay in your room," she told
+    Emily. "Don''t come out until I get back."
+
+    
+
+    Emily heard the lock
+    click. She heard the front door open and close.
+
+    
+
+    She sat on her bed
+    with her stuffed rabbit, Mr. Whiskers, and waited. She was a good girl. She knew
+    how to wait.
+
+    
+
+    She didn''t know how much time passed. She might have
+    fallen asleep.
+
+    
+
+    She woke up to heat. To the smell of something burning.
+    Orange light was flickering under her door, and the air was getting hard to breathe.
+
+    
+
+    She
+    tried the door. Locked.
+
+    
+
+    She screamed. She pounded. She cried for
+    her mother, for anyone.
+
+    
+
+    No one came.
+
+    
+
+    She retreated
+    to the corner of her room, hugging Mr. Whiskers, making herself as small as possible.
+    The smoke was everywhere now, thick and black, stinging her eyes, filling her
+    lungs.
+
+    
+
+    Then the door exploded inward.
+
+    
+
+    A man in a heavy
+    coat. He picked her up. He smelled like smoke and sweat and something metallic.
+
+    
+
+    "I''m
+    scared," she told him.
+
+    
+
+    "Don''t be afraid," he said.
+
+    
+
+    She
+    believed him.
+
+    
+
+    She doesn''t remember what happened after that. Just
+    darkness. Just peace.
+
+    
+
+    When they found her, she was still in the
+    firefighter''s arms. Her small fingers were clutched around his collar. Mr. Whiskers
+    was pressed between them, half-melted, cotton spilling out.
+
+    
+
+    Her
+    mother identified the body the next morning. She didn''t cry. She just stared.
+
+    
+
+    The
+    coroner found something else in Emily''s stomach. Residue from sleeping pills
+    - the kind you''d give an adult, not a child. Crushed up. Mixed into something
+    sweet.'
   pocketItems:
   - id: Soul04Item01
-    displayName: "Stuffed Rabbit"
-    description: "Half-melted, cotton spilling out. One button eye is missing. She calls him Mr. Whiskers."
-    icon: {fileID: 0}
+    displayName: Stuffed Rabbit
+    description: Half-melted, cotton spilling out. One button eye is missing. She
+      calls him Mr. Whiskers.
+    icon: {fileID: 21300000, guid: bf090b83175d9784985cc5a2793d449c, type: 3}
     relatedEvidenceIds: []
   - id: Soul04Item02
-    displayName: "Report Card"
-    description: "First grade. Mostly A's. \"Emily is a joy to have in class.\""
+    displayName: Report Card
+    description: First grade. Mostly A's. "Emily is a joy to have in class."
     icon: {fileID: 0}
     relatedEvidenceIds: []
   - id: Soul04Item03
-    displayName: "Letter to Mom"
-    description: "Crooked handwriting on lined paper: \"Dear Mommy, I will be good. I promise. Love, Emily.\""
+    displayName: Letter to Mom
+    description: 'Crooked handwriting on lined paper: "Dear Mommy, I will be good.
+      I promise. Love, Emily."'
     icon: {fileID: 0}
     relatedEvidenceIds: []
   - id: Soul04Item04
-    displayName: "Candy Wrappers"
-    description: "Two wrappers in her pocket. The candy inside has melted. But these aren't candy wrappers - they're medicine packaging."
+    displayName: Candy Wrappers
+    description: Two wrappers in her pocket. The candy inside has melted. But these
+      aren't candy wrappers - they're medicine packaging.
     icon: {fileID: 0}
     relatedEvidenceIds: []
   dialogue:
@@ -47,7 +166,7 @@ MonoBehaviour:
     nodes:
     - nodeId: Soul04Start
       type: 2
-      text: ""
+      text: 
       next:
       - Soul04Dia04
       - Soul04Dia03
@@ -56,7 +175,9 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul04Dia01
       type: 1
-      text: "Emily:\nI'm Emily. I'm sorry, I... did I do something wrong?"
+      text: 'Emily:
+
+        I''m Emily. I''m sorry, I... did I do something wrong?'
       next:
       - Soul04Dia04
       - Soul04Dia03
@@ -64,7 +185,10 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul04Dia02
       type: 1
-      text: "Emily:\nThere was a fire. It was so hot. The babysitter said to stay in my room and not come out, the room must be safe... I was so scared."
+      text: 'Emily:
+
+        There was a fire. It was so hot. The babysitter said
+        to stay in my room and not come out, the room must be safe... I was so scared.'
       next:
       - Soul04Dia04
       - Soul04Dia03
@@ -72,7 +196,10 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul04Dia03
       type: 1
-      text: "Emily:\nA man picked me up. He told me not to be afraid. But then there was so much smoke, and I can't remember anything after that."
+      text: 'Emily:
+
+        A man picked me up. He told me not to be afraid. But
+        then there was so much smoke, and I can''t remember anything after that.'
       next:
       - Soul04Dia04
       - Soul04Dia02
@@ -80,7 +207,10 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul04Dia04
       type: 1
-      text: "Emily:\nMommy says I'm a bad girl... She says she'll never forgive me for existing... But I didn't know... I should have been better..."
+      text: 'Emily:
+
+        Mommy says I''m a bad girl... She says she''ll never
+        forgive me for existing... But I didn''t know... I should have been better...'
       next:
       - Soul04Dia03
       - Soul04Dia02
@@ -88,39 +218,47 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul04Dia05
       type: 0
-      text: "Whose rabbit is this?"
+      text: Whose rabbit is this?
       next:
       - Soul04Dia05R
       requiredEvidenceIds:
       - Soul04Item01
     - nodeId: Soul04Dia05R
       type: 1
-      text: "Emily:\nThat's Mr. Whiskers. Auntie gave him to me. He can talk. He sleeps with me."
+      text: 'Emily:
+
+        That''s Mr. Whiskers. Auntie gave him to me. He can
+        talk. He sleeps with me.'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul04Dia06
       type: 0
-      text: "Where's your mother?"
+      text: Where's your mother?
       next:
       - Soul04Dia06R
       requiredEvidenceIds:
       - Soul04Item03
     - nodeId: Soul04Dia06R
       type: 1
-      text: "Emily:\nI don't know where Mommy went..."
+      text: 'Emily:
+
+        I don''t know where Mommy went...'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul04Dia07
       type: 0
-      text: "This isn't candy, child. These are sleeping pills."
+      text: This isn't candy, child. These are sleeping pills.
       next:
       - Soul04Dia07R
       requiredEvidenceIds:
       - Soul04Item04
     - nodeId: Soul04Dia07R
       type: 1
-      text: "Emily:\nBut it is candy. It's sweet... The babysitter gave it to me."
+      text: 'Emily:
+
+        But it is candy. It''s sweet... The babysitter gave
+        it to me.'
       next: []
       requiredEvidenceIds: []
-  skullRemark: "...Uh, Boss, maybe calm down a little."
-  luciferRemark: "(The devil laughs loudly, but makes no comment.)"
+  skullRemark: ...Uh, Boss, maybe calm down a little.
+  luciferRemark: (The devil laughs loudly, but makes no comment.)

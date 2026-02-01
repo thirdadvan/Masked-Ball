@@ -13,41 +13,155 @@ MonoBehaviour:
   m_Name: Soul_Profile_01_Arsonist
   m_EditorClassIdentifier: 
   characterID: 1
-  displayName: "The Arsonist"
+  displayName: The Arsonist
   maskAlignment: 0
   trueAlignment: 1
   strength: 2
   sin: 1
   deathType: 4
-  deathDetail: "Heart attack from overexcitement while watching the fire"
-  backstory: "Jean-Pierre Morineau, fifty-seven years old, a wine importer.\r\n\r\nOnce prosperous, deeply in debt at the time of his death.\r\n\r\nThree years ago, his business was still the most respectable French wine supplier in the city. He was a regular guest at high-society parties, his business card printed in four different languages. He believed his success would last forever - that his ascent would never stop.\r\n\r\nBut two years ago, the market shifted. Young people began favoring craft beer and local low-alcohol fruit wines. His Bordeaux stock piled up, untouched, filling entire warehouses. One year ago, he turned to loan sharks to stay afloat, using the apartment building as collateral - the only inheritance his father had left him.\r\n\r\nSix months ago, he realized he could no longer repay his debts.\r\n\r\nThat was when he began studying insurance policies.\r\n\r\nFire insurance. Accident insurance. Property damage coverage.\r\n\r\nHe calculated carefully: if the building burned down, the payout would be four to five times his total debt. Enough for a comeback. Enough to become that Jean-Pierre again - the one who dominated conversations at parties, glass in hand.\r\n\r\nHe chose Saturday, 3:00 a.m.\r\n\r\nMost tenants would be asleep. The fire wouldn't be extinguished too quickly. His wife and daughter were spending the weekend at his mother-in-law's place in the countryside. And he himself - of course - would be perfectly absent, having gone out on a sudden late-night walk to clear his head.\r\n\r\nHe never thought anyone would die.\r\n\r\nOr rather, he did - but he convinced himself otherwise. The fire alarm would go off. The fire brigade would arrive. The tenants weren't idiots; they would run. At worst, a few floors would burn, the tenants would flee, and he would walk away with a check and a brand-new life.\r\n\r\nHe watched the flames rise from a cafe across the street.\r\n\r\nHis heart began to race.\r\n\r\nNot from fear.\r\n\r\nFrom excitement.\r\n\r\nWhen the windows on the fourth floor shattered and fire burst outward, he felt a pure, almost obscene thrill.\r\n\r\nThis was his fire.\r\nHis masterpiece.\r\nHe was burning down the past with his own hands - welcoming the future.\r\n\r\nThen his heart stopped.\r\n\r\nWhen he died, a twisted, liver-colored grin was still frozen on his face."
+  deathDetail: Heart attack from overexcitement while watching the fire
+  backstory: 'Jean-Pierre Morineau, fifty-seven years old, a wine importer.
+
+    
+
+    Once
+    prosperous, deeply in debt at the time of his death.
+
+    
+
+    Three years
+    ago, his business was still the most respectable French wine supplier in the
+    city. He was a regular guest at high-society parties, his business card printed
+    in four different languages. He believed his success would last forever - that
+    his ascent would never stop.
+
+    
+
+    But two years ago, the market shifted.
+    Young people began favoring craft beer and local low-alcohol fruit wines. His
+    Bordeaux stock piled up, untouched, filling entire warehouses. One year ago,
+    he turned to loan sharks to stay afloat, using the apartment building as collateral
+    - the only inheritance his father had left him.
+
+    
+
+    Six months ago,
+    he realized he could no longer repay his debts.
+
+    
+
+    That was when he
+    began studying insurance policies.
+
+    
+
+    Fire insurance. Accident insurance.
+    Property damage coverage.
+
+    
+
+    He calculated carefully: if the building
+    burned down, the payout would be four to five times his total debt. Enough for
+    a comeback. Enough to become that Jean-Pierre again - the one who dominated conversations
+    at parties, glass in hand.
+
+    
+
+    He chose Saturday, 3:00 a.m.
+
+    
+
+    Most
+    tenants would be asleep. The fire wouldn''t be extinguished too quickly. His
+    wife and daughter were spending the weekend at his mother-in-law''s place in
+    the countryside. And he himself - of course - would be perfectly absent, having
+    gone out on a sudden late-night walk to clear his head.
+
+    
+
+    He never
+    thought anyone would die.
+
+    
+
+    Or rather, he did - but he convinced himself
+    otherwise. The fire alarm would go off. The fire brigade would arrive. The tenants
+    weren''t idiots; they would run. At worst, a few floors would burn, the tenants
+    would flee, and he would walk away with a check and a brand-new life.
+
+    
+
+    He
+    watched the flames rise from a cafe across the street.
+
+    
+
+    His heart
+    began to race.
+
+    
+
+    Not from fear.
+
+    
+
+    From excitement.
+
+    
+
+    When
+    the windows on the fourth floor shattered and fire burst outward, he felt a pure,
+    almost obscene thrill.
+
+    
+
+    This was his fire.
+
+    His masterpiece.
+
+    He
+    was burning down the past with his own hands - welcoming the future.
+
+    
+
+    Then
+    his heart stopped.
+
+    
+
+    When he died, a twisted, liver-colored grin was
+    still frozen on his face.'
   pocketItems:
   - id: Soul01Item01
-    displayName: "Matchbox"
-    description: "High-end cigar matches in a wooden case, stamped with the logo of a private members' cigar lounge. Three matches are missing."
-    icon: {fileID: 0}
+    displayName: Matchbox
+    description: High-end cigar matches in a wooden case, stamped with the logo of
+      a private members' cigar lounge. Three matches are missing.
+    icon: {fileID: 21300000, guid: c5f98bc305a67594cb672944a9ec7bde, type: 3}
     relatedEvidenceIds: []
   - id: Soul01Item02
-    displayName: "Insurance Policy Copy"
-    description: "Neatly folded, edges worn from repeated handling. Fire insurance for the apartment building, recently updated."
-    icon: {fileID: 0}
+    displayName: Insurance Policy Copy
+    description: Neatly folded, edges worn from repeated handling. Fire insurance
+      for the apartment building, recently updated.
+    icon: {fileID: 21300000, guid: 53215dbd10c085641883de54711466fe, type: 3}
     relatedEvidenceIds: []
   - id: Soul01Item03
-    displayName: "Cafe Receipt"
-    description: "Dated the night of the fire, timestamp: 2:47 a.m. From the cafe across the street."
-    icon: {fileID: 0}
+    displayName: Cafe Receipt
+    description: 'Dated the night of the fire, timestamp: 2:47 a.m. From the cafe
+      across the street.'
+    icon: {fileID: 21300000, guid: f8a78db6dcf2f4e48bbfde0123ffc6bc, type: 3}
     relatedEvidenceIds: []
   - id: Soul01Item04
-    displayName: "Business Card Holder"
-    description: "Genuine leather, embossed with his name in cursive. Still half-full of cards in four languages."
-    icon: {fileID: 0}
+    displayName: Business Card Holder
+    description: Genuine leather, embossed with his name in cursive. Still half-full
+      of cards in four languages.
+    icon: {fileID: 21300000, guid: 7b07155a4222301469cff39920ae2a55, type: 3}
     relatedEvidenceIds: []
   dialogue:
     startNodeId: Soul01Start
     nodes:
     - nodeId: Soul01Start
       type: 2
-      text: ""
+      text: 
       next:
       - Soul01Dia04
       - Soul01Dia03
@@ -56,7 +170,10 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul01Dia01
       type: 1
-      text: "Jean-Pierre:\nJean-Pierre Morineau, wine merchant. Alas, but none of that matters anymore."
+      text: 'Jean-Pierre:
+
+        Jean-Pierre Morineau, wine merchant. Alas, but
+        none of that matters anymore.'
       next:
       - Soul01Dia04
       - Soul01Dia03
@@ -64,7 +181,11 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul01Dia02
       type: 1
-      text: "Jean-Pierre:\n(He touches his chest) Heart attack. That night I went out for a walk, didn't expect to encounter a fire. I wanted to help, but my heart couldn't take it, and I just..."
+      text: 'Jean-Pierre:
+
+        (He touches his chest) Heart attack. That night
+        I went out for a walk, didn''t expect to encounter a fire. I wanted to help,
+        but my heart couldn''t take it, and I just...'
       next:
       - Soul01Dia04
       - Soul01Dia03
@@ -72,7 +193,11 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul01Dia03
       type: 1
-      text: "Jean-Pierre:\nOh, I was processing documents, then insomnia drove me out for a walk. You know, Madame, this city is full of noisy commoners... The city is very quiet at three in the morning."
+      text: 'Jean-Pierre:
+
+        Oh, I was processing documents, then insomnia
+        drove me out for a walk. You know, Madame, this city is full of noisy commoners...
+        The city is very quiet at three in the morning.'
       next:
       - Soul01Dia04
       - Soul01Dia02
@@ -80,7 +205,11 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul01Dia04
       type: 1
-      text: "Jean-Pierre:\nOh my God! I swear, I never in my life thought to harm anyone. Everything I did was just to give my family a better life. What's wrong with that?"
+      text: 'Jean-Pierre:
+
+        Oh my God! I swear, I never in my life thought
+        to harm anyone. Everything I did was just to give my family a better life.
+        What''s wrong with that?'
       next:
       - Soul01Dia03
       - Soul01Dia02
@@ -88,50 +217,93 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul01Dia05
       type: 0
-      text: "What is this insurance policy?"
+      text: What is this insurance policy?
       next:
       - Soul01Dia05R
       requiredEvidenceIds:
       - Soul01Item02
     - nodeId: Soul01Dia05R
       type: 1
-      text: "Jean-Pierre:\nProperty insurance, perfectly normal risk management. Didn't expect something would actually happen. Pity I died - can't collect a single coin now."
+      text: 'Jean-Pierre:
+
+        Property insurance, perfectly normal risk management.
+        Didn''t expect something would actually happen. Pity I died - can''t collect
+        a single coin now.'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul01Dia06
       type: 0
-      text: "You have no burns on you."
+      text: You have no burns on you.
       next:
       - Soul01Dia06R
       requiredEvidenceIds: []
     - nodeId: Soul01Dia06R
       type: 1
-      text: "Jean-Pierre:\nBecause I never made it into the fire - my heart betrayed me first."
+      text: 'Jean-Pierre:
+
+        Because I never made it into the fire - my heart
+        betrayed me first.'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul01Dia07
       type: 0
-      text: "Why were you at the cafe across the street at 3 AM?"
+      text: Why were you at the cafe across the street at 3 AM?
       next:
       - Soul01Dia07R
       requiredEvidenceIds:
       - Soul01Item03
     - nodeId: Soul01Dia07R
       type: 1
-      text: "Jean-Pierre:\nInsomnia. Wanted to find a quiet place to sit. Pure coincidence."
+      text: 'Jean-Pierre:
+
+        Insomnia. Wanted to find a quiet place to sit.
+        Pure coincidence.'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul01Dia08
       type: 0
-      text: "Three matches are missing."
+      text: Three matches are missing.
       next:
       - Soul01Dia08R
       requiredEvidenceIds:
       - Soul01Item01
     - nodeId: Soul01Dia08R
       type: 1
-      text: "Jean-Pierre:\nFor lighting cigars. Sometimes matches get damp and you need to strike a few extra. Any other questions?"
+      text: 'Jean-Pierre:
+
+        For lighting cigars. Sometimes matches get damp
+        and you need to strike a few extra. Any other questions?'
       next: []
       requiredEvidenceIds: []
-  skullRemark: "Ha, this guy - wonder if his corpse will end up hanging from a lamppost. What do you think, Boss?"
-  luciferRemark: "Ah, pride. My favorite sin.\r\n\r\n(Pause.)\r\n\r\nHe never imagined he could fail. Meticulous planning. Perfect timing. An airtight alibi. The only thing he didn't account for was a heart too excited to keep beating.\r\n\r\n(Low chuckle.)\r\n\r\nWhat was he thinking when he died? The insurance payout? His new life? Or the people he set ablaze?\r\n\r\nThe answer is: none of them.\r\n\r\nWhen he died, he was thinking - 'I won.'"
+  skullRemark: Ha, this guy - wonder if his corpse will end up hanging from a lamppost.
+    What do you think, Boss?
+  luciferRemark: 'Ah, pride. My favorite sin.
+
+    
+
+    (Pause.)
+
+    
+
+    He
+    never imagined he could fail. Meticulous planning. Perfect timing. An airtight
+    alibi. The only thing he didn''t account for was a heart too excited to keep
+    beating.
+
+    
+
+    (Low chuckle.)
+
+    
+
+    What was he thinking when he
+    died? The insurance payout? His new life? Or the people he set ablaze?
+
+    
+
+    The
+    answer is: none of them.
+
+    
+
+    When he died, he was thinking - ''I won.'''

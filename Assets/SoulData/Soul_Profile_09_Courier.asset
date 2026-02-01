@@ -13,41 +13,130 @@ MonoBehaviour:
   m_Name: Soul_Profile_09_Courier
   m_EditorClassIdentifier: 
   characterID: 9
-  displayName: "The Courier"
+  displayName: The Courier
   maskAlignment: 0
   trueAlignment: 0
   strength: 2
   sin: 0
   deathType: 2
-  deathDetail: "Burned to death while rescuing trapped residents"
-  backstory: "Marcus Lee, twenty-four years old, a delivery driver.\r\n\r\nHe lived with his mother in a small apartment across town. His father had left when he was twelve. His mother worked two jobs to keep them afloat. When Marcus graduated high school, he didn't go to college. He got a job instead - delivering packages, making just enough to help with rent.\r\n\r\nHe wasn't anyone special. That's what he always told himself. Just a guy with a van and a route. Nobody important.\r\n\r\nThat night, he was finishing his last delivery. Late shift - overtime pay. He was tired, hungry, thinking about the sandwich his mom had packed for him, still uneaten in his pocket.\r\n\r\nHe saw the flames from two blocks away.\r\n\r\nHe should have kept driving. It wasn't his building. It wasn't his problem. The fire department was probably already on the way.\r\n\r\nBut he knew this building. He delivered here three times a week. He knew the old couple on the second floor who always tipped him. He knew the grandmother on the third floor who gave him candy. He knew their faces, their names, their apartment numbers.\r\n\r\nHe pulled over. He didn't think. He just ran.\r\n\r\nThe first trip, he carried out the old couple. They were confused, disoriented, barely able to walk. He put them on the sidewalk and went back in.\r\n\r\nThe second trip, he found the grandmother. She was heavier than she looked. His arms were shaking by the time he got her outside.\r\n\r\nSomeone told him there were still people trapped on the upper floors. He didn't hesitate.\r\n\r\nThe third trip, he didn't come back.\r\n\r\nThey found his body two days later, in the stairwell between the third and fourth floors. He'd been trying to reach someone. The smoke got him first.\r\n\r\nHis mother identified the body. She didn't cry - she just stood there, holding the crumpled sandwich wrapper they'd found in his pocket.\r\n\r\nThe delivery company sent flowers to the funeral. His route was reassigned the next day.\r\n\r\nHe wasn't anyone special. Just a guy who ran into a burning building because he recognized the faces."
+  deathDetail: Burned to death while rescuing trapped residents
+  backstory: 'Marcus Lee, twenty-four years old, a delivery driver.
+
+    
+
+    He
+    lived with his mother in a small apartment across town. His father had left when
+    he was twelve. His mother worked two jobs to keep them afloat. When Marcus graduated
+    high school, he didn''t go to college. He got a job instead - delivering packages,
+    making just enough to help with rent.
+
+    
+
+    He wasn''t anyone special.
+    That''s what he always told himself. Just a guy with a van and a route. Nobody
+    important.
+
+    
+
+    That night, he was finishing his last delivery. Late
+    shift - overtime pay. He was tired, hungry, thinking about the sandwich his mom
+    had packed for him, still uneaten in his pocket.
+
+    
+
+    He saw the flames
+    from two blocks away.
+
+    
+
+    He should have kept driving. It wasn''t his
+    building. It wasn''t his problem. The fire department was probably already on
+    the way.
+
+    
+
+    But he knew this building. He delivered here three times
+    a week. He knew the old couple on the second floor who always tipped him. He
+    knew the grandmother on the third floor who gave him candy. He knew their faces,
+    their names, their apartment numbers.
+
+    
+
+    He pulled over. He didn''t
+    think. He just ran.
+
+    
+
+    The first trip, he carried out the old couple.
+    They were confused, disoriented, barely able to walk. He put them on the sidewalk
+    and went back in.
+
+    
+
+    The second trip, he found the grandmother. She
+    was heavier than she looked. His arms were shaking by the time he got her outside.
+
+    
+
+    Someone
+    told him there were still people trapped on the upper floors. He didn''t hesitate.
+
+    
+
+    The
+    third trip, he didn''t come back.
+
+    
+
+    They found his body two days later,
+    in the stairwell between the third and fourth floors. He''d been trying to reach
+    someone. The smoke got him first.
+
+    
+
+    His mother identified the body.
+    She didn''t cry - she just stood there, holding the crumpled sandwich wrapper
+    they''d found in his pocket.
+
+    
+
+    The delivery company sent flowers to
+    the funeral. His route was reassigned the next day.
+
+    
+
+    He wasn''t anyone
+    special. Just a guy who ran into a burning building because he recognized the
+    faces.'
   pocketItems:
   - id: Soul09Item01
-    displayName: "Work Badge"
-    description: "FastTrack Delivery. His photo is still recognizable despite the damage."
-    icon: {fileID: 0}
+    displayName: Work Badge
+    description: FastTrack Delivery. His photo is still recognizable despite the
+      damage.
+    icon: {fileID: 21300000, guid: 1b56201ebf0f2c240976e77b04c8ec5f, type: 3}
     relatedEvidenceIds: []
   - id: Soul09Item02
-    displayName: "Broken Phone"
-    description: "Cracked screen, won't turn on. His last call was to his mother."
-    icon: {fileID: 0}
+    displayName: Broken Phone
+    description: Cracked screen, won't turn on. His last call was to his mother.
+    icon: {fileID: 21300000, guid: 1d5939851edf1cc4d8a1f94848b39199, type: 3}
     relatedEvidenceIds: []
   - id: Soul09Item03
-    displayName: "Pay Stub"
-    description: "Crumpled, low numbers. Barely minimum wage."
-    icon: {fileID: 0}
+    displayName: Pay Stub
+    description: Crumpled, low numbers. Barely minimum wage.
+    icon: {fileID: 21300000, guid: 3903b5f9c7a479c4eb4c7257374eeee1, type: 3}
     relatedEvidenceIds: []
   - id: Soul09Item04
-    displayName: "Crumpled Sandwich"
-    description: "Still in his pocket. His mother made it for him that morning. He never got to eat it."
-    icon: {fileID: 0}
+    displayName: Crumpled Sandwich
+    description: Still in his pocket. His mother made it for him that morning. He
+      never got to eat it.
+    icon: {fileID: 21300000, guid: aa42bbb2eede68d498f9ea040d219310, type: 3}
     relatedEvidenceIds: []
   dialogue:
     startNodeId: Soul09Start
     nodes:
     - nodeId: Soul09Start
       type: 2
-      text: ""
+      text: 
       next:
       - Soul09Dia04
       - Soul09Dia03
@@ -56,7 +145,9 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul09Dia01
       type: 1
-      text: "Marcus:\nMarcus Lee. Delivery driver."
+      text: 'Marcus:
+
+        Marcus Lee. Delivery driver.'
       next:
       - Soul09Dia04
       - Soul09Dia03
@@ -64,7 +155,10 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul09Dia02
       type: 1
-      text: "Marcus:\nSaw the fire while passing by. Ran in. And then... well."
+      text: 'Marcus:
+
+        Saw the fire while passing by. Ran in. And then...
+        well.'
       next:
       - Soul09Dia04
       - Soul09Dia03
@@ -72,7 +166,10 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul09Dia03
       type: 1
-      text: "Marcus:\nCarried out two old people. Heard there were more people trapped upstairs. So I went back up."
+      text: 'Marcus:
+
+        Carried out two old people. Heard there were more people
+        trapped upstairs. So I went back up.'
       next:
       - Soul09Dia04
       - Soul09Dia02
@@ -80,7 +177,10 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul09Dia04
       type: 1
-      text: "Marcus:\nI don't know. ...Innocent, I guess? I never did anything to hurt anyone."
+      text: 'Marcus:
+
+        I don''t know. ...Innocent, I guess? I never did anything
+        to hurt anyone.'
       next:
       - Soul09Dia03
       - Soul09Dia02
@@ -88,27 +188,55 @@ MonoBehaviour:
       requiredEvidenceIds: []
     - nodeId: Soul09Dia05
       type: 0
-      text: "Why did you go in? You didn't know them."
+      text: Why did you go in? You didn't know them.
       next:
       - Soul09Dia05R
       requiredEvidenceIds:
       - Soul09Item01
     - nodeId: Soul09Dia05R
       type: 1
-      text: "Marcus:\n...But I did know them. This was my delivery route."
+      text: 'Marcus:
+
+        ...But I did know them. This was my delivery route.'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul09Dia06
       type: 0
-      text: "What's this?"
+      text: What's this?
       next:
       - Soul09Dia06R
       requiredEvidenceIds:
       - Soul09Item04
     - nodeId: Soul09Dia06R
       type: 1
-      text: "Marcus:\nOh, that's the lunch my mom packed for me. Never got around to eating it... I hope she won't be too sad."
+      text: 'Marcus:
+
+        Oh, that''s the lunch my mom packed for me. Never got
+        around to eating it... I hope she won''t be too sad.'
       next: []
       requiredEvidenceIds: []
-  skullRemark: "...I wonder what's gonna happen to his mother now."
-  luciferRemark: "What a waste.\r\n\r\n(Long pause.)\r\n\r\nHe didn't have to go in. He wasn't a firefighter. He wasn't a hero. He was just a delivery boy with a sandwich in his pocket.\r\n\r\nAnd yet.\r\n\r\n(Softer.)\r\n\r\nThere's nothing else to say about this one."
+  skullRemark: ...I wonder what's gonna happen to his mother now.
+  luciferRemark: 'What a waste.
+
+    
+
+    (Long pause.)
+
+    
+
+    He didn''t
+    have to go in. He wasn''t a firefighter. He wasn''t a hero. He was just a delivery
+    boy with a sandwich in his pocket.
+
+    
+
+    And yet.
+
+    
+
+    (Softer.)
+
+    
+
+    There''s
+    nothing else to say about this one.'
