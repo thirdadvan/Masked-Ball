@@ -111,6 +111,7 @@ public class GameManager : MonoBehaviour
     [ContextMenu("DEBUG / Evaluate Survivors (Good)")]
     public void DebugEvaluateGoodSurvivors()
     {
+        Debug.Log("Evaluate");
         if (grid == null)
         {
             Debug.LogError("GridManager is null.");
@@ -177,15 +178,12 @@ public class GameManager : MonoBehaviour
 
         // 规则：
         // 强善不受弱恶影响
-        // 强善被强恶杀
-        // 弱善被弱恶杀
-        //
-        // 未提到的组合：这里默认不发生击杀（比如 弱善 vs 强恶、强善 vs 普通恶、弱善 vs 普通恶）
-        if (goodStrength == StrengthTier.Strong && evilStrength == StrengthTier.Strong)
+        // 弱善被所有恶杀
+        if (goodStrength == StrengthTier.Weak)
         {
             toDie.Add(targetGood);
         }
-        else if (goodStrength == StrengthTier.Weak && evilStrength == StrengthTier.Weak)
+        if (goodStrength == StrengthTier.Strong && evilStrength == StrengthTier.Strong)
         {
             toDie.Add(targetGood);
         }

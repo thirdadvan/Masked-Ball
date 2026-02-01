@@ -17,6 +17,8 @@ public class RoleSelectUI : MonoBehaviour
     public SoulProfile soulProfile;
 
     public GameObject mask;
+
+    public ItemSlots itemSlots;
     void Awake()
     {
         HideFocus();
@@ -31,6 +33,7 @@ public class RoleSelectUI : MonoBehaviour
         soulProfile = sp;
         if (focusLayer != null) focusLayer.SetActive(true);
         if (dim != null) dim.gameObject.SetActive(true);
+        itemSlots.ShowItemsFromCharacter(sp);
 
         if (focusSprite != null)
         {

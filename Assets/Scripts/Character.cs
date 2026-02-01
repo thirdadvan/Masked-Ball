@@ -14,6 +14,8 @@ public class Character : MonoBehaviour
 
     private Sprite characterSprite;
 
+    public ItemSlots ItemSlots;
+
     public void Awake()
     {
         characterSprite = GetComponent<SpriteRenderer>().sprite;
@@ -23,10 +25,8 @@ public class Character : MonoBehaviour
         Debug.Log($"Clicked character: {profile.displayName}");
 
         CharacterFocus.ShowRole(profile, characterSprite);
-        // TODO:
-        // 1. 打开角色面板
-        // 2. 显示道具 / 穿着
-        // 3. 高亮 / 选中
+        ItemSlots.ShowItemsFromCharacter(profile);
+
     }
 
     public void SetCellIndex(Vector2Int idx)

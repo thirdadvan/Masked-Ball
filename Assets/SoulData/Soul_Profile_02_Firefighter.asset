@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a69d97e0f8cf4adda5715fcbd3c2871, type: 3}
+  m_Name: Soul_Profile_02_Firefighter
+  m_EditorClassIdentifier: 
+  characterID: 2
+  displayName: "The Firefighter"
+  maskAlignment: 1
+  trueAlignment: 0
+  strength: 2
+  sin: 0
+  deathType: 1
+  deathDetail: "Smoke inhalation while rescuing a child from the burning building"
+  backstory: "Thomas Brennan, thirty-four years old, a firefighter.\r\n\r\nFormer
+    firefighter, technically. A work injury had ended his career \u2014 the permanent
+    kind. Nerve damage in his left leg from a collapsed beam two years ago. He walked
+    with a limp now, barely noticeable most days, but enough to fail the physical.\r\n\r\nHe
+    wasn\u2019t supposed to be there that night.\r\n\r\nHe\u2019d told his fianc\xE9e
+    he was visiting his parents upstate. In truth, he\u2019d driven to his old station,
+    parked across the street, and just\u2026 sat there. Watching the trucks. Watching
+    his old crew laugh through the garage doors.\r\n\r\nHe missed it. God, he missed
+    it.\r\n\r\nWhen the call came in \u2014 structure fire, multiple victims reported
+    \u2014 he followed the trucks. He wasn\u2019t thinking. He just followed.\r\n\r\nBy
+    the time he arrived, the building was fully engulfed. His old captain saw him,
+    shouted at him to stay back. \u201CYou\u2019re not on the roster, Brennan! Stay
+    the hell back!\u201D\r\n\r\nHe stayed back.\r\n\r\nUntil he heard the child.\r\n\r\nFourth
+    floor. A thin, high wail cutting through the roar of flames. The crew was focused
+    on the lower floors \u2014 they hadn\u2019t heard it yet, or maybe they had and
+    knew it was too late.\r\n\r\nThomas didn\u2019t think. He grabbed a spare coat
+    and axe from an unmanned truck and went in.\r\n\r\nThe stairs were still intact,
+    barely. He took them two at a time, his bad leg screaming. The smoke was thick,
+    black, alive. He found the door \u2014 locked \u2014 and swung the axe until it
+    splintered.\r\n\r\nThe girl was huddled in the corner, clutching a half-melted
+    stuffed rabbit. She looked up at him with eyes that had already given up.\r\n\r\n\u201CDon\u2019t
+    be afraid,\u201D he said.\r\n\r\nHe picked her up. She was so light.\r\n\r\nThey
+    made it to the third floor landing before the ceiling gave way.\r\n\r\nHe shielded
+    her with his body. Took the beam across his back. Kept moving.\r\n\r\nSecond
+    floor. The smoke was impossible now. He couldn\u2019t see. Couldn\u2019t breathe.
+    The girl had gone limp in his arms.\r\n\r\nHe made it three more steps before
+    his lungs gave out.\r\n\r\nWhen they found him, he was curled around her, his
+    body a shell. Neither of them made it.\r\n\r\nThe engagement ring was still in
+    his pocket. He\u2019d been meaning to resize it."
+  pocketItems:
+  - id: Soul02Item01
+    displayName: "Engagement Ring"
+    description: "A simple gold band with a small diamond. Slightly too large \u2014 he\u2019d been meaning to get it resized."
+    icon: {fileID: 0}
+    relatedEvidenceIds: []
+  - id: Soul02Item02
+    displayName: "Resignation Letter"
+    description: "Handwritten, never submitted. Dated three days before the fire. \u201CI hereby resign from my position\u2026\u201D"
+    icon: {fileID: 0}
+    relatedEvidenceIds: []
+  - id: Soul02Item03
+    displayName: "Fire Axe"
+    description: "Standard issue. The blade is still sharp. First day using this particular one."
+    icon: {fileID: 0}
+    relatedEvidenceIds: []
+  dialogue:
+    startNodeId: Soul02Start
+    nodes:
+    - nodeId: Soul02Start
+      type: 2
+      text: ""
+      next:
+      - Soul02Dia01
+      - Soul02Dia02
+      - Soul02Dia03
+      - Soul02Dia04
+      requiredEvidenceIds: []
+    - nodeId: Soul02Dia01
+      type: 1
+      text: "Thomas:\nThomas Brennan, firefighter. Former firefighter. Work injury\u2014the permanent kind."
+      next:
+      - Soul02Dia02
+      - Soul02Dia03
+      - Soul02Dia04
+      requiredEvidenceIds: []
+    - nodeId: Soul02Dia02
+      type: 1
+      text: "Thomas:\nWe were already planning to just fight the fire, no rescue. But... I heard a child crying on the fourth floor, so I... went in."
+      next:
+      - Soul02Dia01
+      - Soul02Dia03
+      - Soul02Dia04
+      requiredEvidenceIds: []
+    - nodeId: Soul02Dia03
+      type: 1
+      text: "Thomas:\nI used this axe to break down the door, picked up the child, ran downstairs. Didn\u2019t expect the third floor to collapse. Too much smoke... couldn\u2019t catch a single breath."
+      next:
+      - Soul02Dia01
+      - Soul02Dia02
+      - Soul02Dia04
+      requiredEvidenceIds: []
+    - nodeId: Soul02Dia04
+      type: 1
+      text: "Thomas:\nI didn\u2019t save that child. I lied to my fianc\xE9e, told her I was visiting my parents. I hope God forgives my sins."
+      next:
+      - Soul02Dia01
+      - Soul02Dia02
+      - Soul02Dia03
+      requiredEvidenceIds: []
+    - nodeId: Soul02Dia05
+      type: 0
+      text: "Whose ring is this?"
+      next:
+      - Soul02Dia05R
+      requiredEvidenceIds:
+      - Soul02Item01
+    - nodeId: Soul02Dia05R
+      type: 1
+      text: "Thomas:\nMy engagement ring. Can\u2019t wear it on calls. There wasn\u2019t time to go back and put it in my locker... so I just stuffed it in my pocket."
+      next: []
+      requiredEvidenceIds: []
+    - nodeId: Soul02Dia06
+      type: 0
+      text: "What is this resignation letter?"
+      next:
+      - Soul02Dia06R
+      requiredEvidenceIds:
+      - Soul02Item02
+    - nodeId: Soul02Dia06R
+      type: 1
+      text: "Thomas:\nMy fianc\xE9e said if I didn\u2019t quit, she\u2019d call off the engagement. I was going to submit it next week."
+      next: []
+      requiredEvidenceIds: []
+    - nodeId: Soul02Dia07
+      type: 0
+      text: "The fire axe."
+      next:
+      - Soul02Dia07R
+      requiredEvidenceIds:
+      - Soul02Item03
+    - nodeId: Soul02Dia07R
+      type: 1
+      text: "Thomas:\nFirst day using this axe. When I was running with her in my arms, she said she was scared. I told her not to be afraid. I lied to her."
+      next: []
+      requiredEvidenceIds: []
+  skullRemark: "Is he a good person or an idiot? ...Or are those two the same thing?"
+  luciferRemark: "An unquestionably good person, isn\u2019t he?\r\n\r\n(Pause.)\r\n\r\nIf you need someone to sacrifice themselves again, he\u2019d certainly be willing.\r\n\r\nThat\u2019s what makes them so... useful."

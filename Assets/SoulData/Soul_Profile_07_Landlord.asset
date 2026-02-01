@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a69d97e0f8cf4adda5715fcbd3c2871, type: 3}
+  m_Name: Soul_Profile_07_Landlord
+  m_EditorClassIdentifier: 
+  characterID: 7
+  displayName: "The Landlord"
+  maskAlignment: 0
+  trueAlignment: 1
+  strength: 0
+  sin: 3
+  deathType: 3
+  deathDetail: "Pushed down the stairs while fleeing, died from head trauma and smoke inhalation"
+  backstory: "Harold Pike, sixty-three years old, the building\u2019s property manager.\r\n\r\nNot
+    the owner \u2014 that was some corporation overseas. Harold was just the middleman.
+    He collected rent, handled complaints, made sure the lights stayed on. He\u2019d
+    been doing it for fifteen years, ever since his wife died and he needed something
+    to fill the days.\r\n\r\nHe wasn\u2019t a bad man. He told himself that every
+    night. He wasn\u2019t bad \u2014 just practical.\r\n\r\nWhen the fire extinguishers
+    expired, he didn\u2019t replace them. Too expensive. When the smoke detectors
+    needed new batteries, he bought the cheapest ones, then forgot to install them.
+    When the fire inspector came by two years ago and handed him a list of violations,
+    he smiled, nodded, and filed the paper in a drawer.\r\n\r\nThe emergency exit
+    on the second floor? Blocked with old furniture. He\u2019d been meaning to clear
+    it out for months. The fire escape? Rusted, shaky, probably unsafe. But repairs
+    cost money, and the corporation never approved anything that didn\u2019t directly
+    generate revenue.\r\n\r\nHarold knew the building was a deathtrap. He\u2019d known
+    for years. But nothing ever happened. Nothing ever would. Bad things happened
+    to other people, in other buildings.\r\n\r\nUntil they didn\u2019t.\r\n\r\nThe
+    night of the fire, Harold was the first to smell smoke. He lived on the ground
+    floor, closest to where it started. He had time to get out. Plenty of time.\r\n\r\nHe
+    didn\u2019t warn anyone. Didn\u2019t pull the alarm. Didn\u2019t pound on doors.
+    He just grabbed his wallet, his keys, and his calculator, and headed for the
+    stairs.\r\n\r\nThe stairwell was already filling with smoke. People were pushing,
+    shoving, screaming. Harold\u2019s bad hip slowed him down. He couldn\u2019t keep
+    up.\r\n\r\nSomewhere around the third floor, someone pushed him.\r\n\r\nHe remembered
+    falling. He remembered the crack of his cane breaking. He remembered lying at
+    the bottom of the landing, unable to move, watching feet step over him as people
+    ran past.\r\n\r\nNo one stopped.\r\n\r\nThe smoke got him before the fire did.
+    He lay there, conscious until the very end, watching the orange light flicker
+    above him, thinking about fire extinguishers and smoke detectors and all the
+    repairs he\u2019d never made.\r\n\r\nThe corporation settled out of court. No
+    one was held responsible.\r\n\r\nHarold Pike was listed as just another victim."
+  pocketItems:
+  - id: Soul07Item01
+    displayName: "Old Lease Agreement"
+    description: "Dated years ago, never updated. The terms heavily favor the landlord."
+    icon: {fileID: 0}
+    relatedEvidenceIds: []
+  - id: Soul07Item02
+    displayName: "Fire Inspection Notice"
+    description: "Failed inspection, dated two years ago. Never addressed."
+    icon: {fileID: 0}
+    relatedEvidenceIds: []
+  - id: Soul07Item03
+    displayName: "Violation Notice"
+    description: "A list of required repairs. Every item is unchecked."
+    icon: {fileID: 0}
+    relatedEvidenceIds: []
+  - id: Soul07Item04
+    displayName: "Calculator"
+    description: "Still has power. The display shows a number \u2014 probably a rent calculation."
+    icon: {fileID: 0}
+    relatedEvidenceIds: []
+  dialogue:
+    startNodeId: Soul07Start
+    nodes:
+    - nodeId: Soul07Start
+      type: 2
+      text: ""
+      next:
+      - Soul07Dia01
+      - Soul07Dia02
+      - Soul07Dia03
+      - Soul07Dia04
+      requiredEvidenceIds: []
+    - nodeId: Soul07Dia01
+      type: 1
+      text: "Harold:\nHarold Pike, the building manager. I\u2019ve taken care of this building for many years."
+      next:
+      - Soul07Dia02
+      - Soul07Dia03
+      - Soul07Dia04
+      requiredEvidenceIds: []
+    - nodeId: Soul07Dia02
+      type: 1
+      text: "Harold:\nFell down while running... bad luck."
+      next:
+      - Soul07Dia01
+      - Soul07Dia03
+      - Soul07Dia04
+      requiredEvidenceIds: []
+    - nodeId: Soul07Dia03
+      type: 1
+      text: "Harold:\nI heard the alarm and ran for the exit. What else could I do?"
+      next:
+      - Soul07Dia01
+      - Soul07Dia02
+      - Soul07Dia04
+      requiredEvidenceIds: []
+    - nodeId: Soul07Dia04
+      type: 1
+      text: "Harold:\nI\u2019m just the rent collector. I didn\u2019t start the fire."
+      next:
+      - Soul07Dia01
+      - Soul07Dia02
+      - Soul07Dia03
+      requiredEvidenceIds: []
+    - nodeId: Soul07Dia05
+      type: 0
+      text: "Why weren\u2019t the fire safety systems maintained?"
+      next:
+      - Soul07Dia05R
+      requiredEvidenceIds:
+      - Soul07Item02
+    - nodeId: Soul07Dia05R
+      type: 1
+      text: "Harold:\nDo you know how expensive building materials are these days? What could I do on my own?"
+      next: []
+      requiredEvidenceIds: []
+    - nodeId: Soul07Dia06
+      type: 0
+      text: "Why was the emergency exit blocked?"
+      next:
+      - Soul07Dia06R
+      requiredEvidenceIds:
+      - Soul07Item03
+    - nodeId: Soul07Dia06R
+      type: 1
+      text: "Harold:\nTemporary storage. I was going to clear it out in a few days. Who knew there\u2019d be a fire?"
+      next: []
+      requiredEvidenceIds: []
+    - nodeId: Soul07Dia07
+      type: 0
+      text: "How many years have you been collecting rent?"
+      next:
+      - Soul07Dia07R
+      requiredEvidenceIds:
+      - Soul07Item01
+    - nodeId: Soul07Dia07R
+      type: 1
+      text: "Harold:\n...This building is very difficult to manage. Lots of expenses."
+      next: []
+      requiredEvidenceIds: []
+  skullRemark: "Huh, karma got him good."
+  luciferRemark: "What\u2019s that phrase? \u2018Acceptable business risk\u2019?\r\n\r\n(Pause.)\r\n\r\nHe knew. He always knew. Every expired extinguisher, every dead battery, every blocked exit \u2014 he knew exactly what he was doing.\r\n\r\nBut it was never his fault, was it? The corporation wouldn\u2019t pay. The tenants didn\u2019t complain. The inspector could be ignored.\r\n\r\n(Soft laugh.)\r\n\r\nSomeone pushed him on the stairs. How very appropriate."
