@@ -13,151 +13,271 @@ MonoBehaviour:
   m_Name: Soul_Profile_06_Thief
   m_EditorClassIdentifier: 
   characterID: 6
-  displayName: "The Thief"
+  displayName: The Thief
   maskAlignment: 1
   trueAlignment: 1
   strength: 0
   sin: 3
   deathType: 1
-  deathDetail: "Smoke inhalation while returning to the burning building to steal valuables"
-  backstory: "Vincent Ramos, fifty-one years old, a career thief.\r\n\r\nTwenty years
-    in the trade. He specialized in lonely old people \u2014 they were easy marks.
-    Bad eyesight, slow reflexes, too proud to install security systems. He\u2019d
-    learned their routines, their habits, the hiding places where they kept their
-    treasures.\r\n\r\nHe wasn\u2019t a violent man. He\u2019d never hurt anyone. He
-    just took what they didn\u2019t need \u2014 what they\u2019d never miss until
-    it was too late.\r\n\r\nThat night, he was in the building casing a mark. Fourth
-    floor \u2014 a retired professor who lived alone. Word on the street was the
-    old man had silver, antiques, maybe some old coins. Easy pickings.\r\n\r\nThen
-    the fire started.\r\n\r\nVincent\u2019s first instinct was to run. Self-preservation
-    \u2014 the only code he\u2019d ever lived by. But the smoke was already thick
-    in the hallway, and he could hear people screaming behind locked doors.\r\n\r\nHe
-    had his lockpicks with him. Tools of the trade.\r\n\r\nHe didn\u2019t think about
-    it. He just started picking locks. First door \u2014 an old couple, terrified,
-    couldn\u2019t find their keys. He got them out. Second door \u2014 a grandmother
-    and her grandson, the kid crying, the old woman too weak to walk. He carried
-    her down two flights of stairs.\r\n\r\nThree people. He saved three people.\r\n\r\nAnd
-    then, as he caught his breath on the street, watching the flames climb higher,
-    he remembered.\r\n\r\nThe professor. Fourth floor. The silver. The antiques.\r\n\r\nThe
-    building was still standing. The fire hadn\u2019t reached that floor yet. And
-    everyone was distracted \u2014 firefighters, victims, bystanders. No one would
-    notice one more person slipping back inside.\r\n\r\nIt would be quick. In and
-    out. He\u2019d earned it, hadn\u2019t he? Three lives \u2014 surely that was
-    worth a little silver.\r\n\r\nHe went back in.\r\n\r\nThe smoke was worse than
-    he expected. Much worse. He made it to the fourth floor, found the professor\u2019s
-    apartment, picked the lock. The old man was gone \u2014 evacuated, probably.
-    Good.\r\n\r\nVincent found the silver cigarette case first. Engraved, antique,
-    worth a small fortune. He slipped it into his pocket.\r\n\r\nHe was reaching
-    for the mantel clock when the smoke finally caught up with him.\r\n\r\nThey found
-    his body three days later, buried under debris. His hand was still clutching
-    the cigarette case. His pockets were full of other people\u2019s treasures \u2014
-    a gold ring, a pearl necklace, pawn tickets for items he\u2019d already sold.\r\n\r\nThe
-    three people he saved attended his funeral. None of them knew about the fourth
-    floor."
+  deathDetail: Smoke inhalation while returning to the burning building to steal
+    valuables
+  backstory: 'Vincent Ramos, fifty-one years old, a career thief.
+
+    
+
+    Twenty
+    years in the trade. He specialized in lonely old people - they were easy marks.
+    Bad eyesight, slow reflexes, too proud to install security systems. He''d learned
+    their routines, their habits, the hiding places where they kept their treasures.
+
+    
+
+    He
+    wasn''t a violent man. He''d never hurt anyone. He just took what they didn''t
+    need - what they''d never miss until it was too late.
+
+    
+
+    That night,
+    he was in the building casing a mark. Fourth floor - a retired professor who
+    lived alone. Word on the street was the old man had silver, antiques, maybe some
+    old coins. Easy pickings.
+
+    
+
+    Then the fire started.
+
+    
+
+    Vincent''s
+    first instinct was to run. Self-preservation - the only code he''d ever lived
+    by. But the smoke was already thick in the hallway, and he could hear people
+    screaming behind locked doors.
+
+    
+
+    He had his lockpicks with him. Tools
+    of the trade.
+
+    
+
+    He didn''t think about it. He just started picking
+    locks. First door - an old couple, terrified, couldn''t find their keys. He got
+    them out. Second door - a grandmother and her grandson, the kid crying, the old
+    woman too weak to walk. He carried her down two flights of stairs.
+
+    
+
+    Three
+    people. He saved three people.
+
+    
+
+    And then, as he caught his breath
+    on the street, watching the flames climb higher, he remembered.
+
+    
+
+    The
+    professor. Fourth floor. The silver. The antiques.
+
+    
+
+    The building
+    was still standing. The fire hadn''t reached that floor yet. And everyone was
+    distracted - firefighters, victims, bystanders. No one would notice one more
+    person slipping back inside.
+
+    
+
+    It would be quick. In and out. He''d
+    earned it, hadn''t he? Three lives - surely that was worth a little silver.
+
+    
+
+    He
+    went back in.
+
+    
+
+    The smoke was worse than he expected. Much worse.
+    He made it to the fourth floor, found the professor''s apartment, picked the
+    lock. The old man was gone - evacuated, probably. Good.
+
+    
+
+    Vincent
+    found the silver cigarette case first. Engraved, antique, worth a small fortune.
+    He slipped it into his pocket.
+
+    
+
+    He was reaching for the mantel clock
+    when the smoke finally caught up with him.
+
+    
+
+    They found his body three
+    days later, buried under debris. His hand was still clutching the cigarette case.
+    His pockets were full of other people''s treasures - a gold ring, a pearl necklace,
+    pawn tickets for items he''d already sold.
+
+    
+
+    The three people he saved
+    attended his funeral. None of them knew about the fourth floor.'
   pocketItems:
   - id: Soul06Item01
-    displayName: "Gold Ring"
-    description: "Woman\u2019s size, engraved with a date and initials. Doesn\u2019t belong to anyone he saved."
-    icon: {fileID: 0}
+    displayName: Gold Ring
+    description: Woman's size, engraved with a date and initials. Doesn't belong
+      to anyone he saved.
+    icon: {fileID: 21300000, guid: e0b9f940c373f5646965fd17bd891058, type: 3}
     relatedEvidenceIds: []
   - id: Soul06Item02
-    displayName: "Pearl Necklace"
-    description: "Heat-damaged, pearls yellowed from the fire. Obviously feminine."
-    icon: {fileID: 0}
+    displayName: Pearl Necklace
+    description: Heat-damaged, pearls yellowed from the fire. Obviously feminine.
+    icon: {fileID: 21300000, guid: b9ddfec4c5514c748b9c81a1b5fb956a, type: 3}
     relatedEvidenceIds: []
   - id: Soul06Item03
-    displayName: "Lockpicks"
-    description: "Professional quality, well-worn from years of use. He used these to save three people. And to break into the professor\u2019s apartment."
-    icon: {fileID: 0}
+    displayName: Lockpicks
+    description: Professional quality, well-worn from years of use. He used these
+      to save three people. And to break into the professor's apartment.
+    icon: {fileID: 21300000, guid: 6bf2402858159274f9763ed8d2ee6bca, type: 3}
     relatedEvidenceIds: []
   - id: Soul06Item04
-    displayName: "Pawn Tickets"
-    description: "Several crumpled receipts. Watches, silverware, a jeweled brooch. All pawned in the last month."
-    icon: {fileID: 0}
+    displayName: Pawn Tickets
+    description: Several crumpled receipts. Watches, silverware, a jeweled brooch.
+      All pawned in the last month.
+    icon: {fileID: 21300000, guid: 697e8785856adc74f9e7f62ffb3068d0, type: 3}
     relatedEvidenceIds: []
   - id: Soul06Item05
-    displayName: "Silver Cigarette Case"
-    description: "Antique, beautifully engraved with someone else\u2019s name. He died holding this."
-    icon: {fileID: 0}
+    displayName: Silver Cigarette Case
+    description: Antique, beautifully engraved with someone else's name. He died
+      holding this.
+    icon: {fileID: 21300000, guid: a06a49fa92e29504e8b47dff4f4b8d65, type: 3}
     relatedEvidenceIds: []
   dialogue:
     startNodeId: Soul06Start
     nodes:
     - nodeId: Soul06Start
       type: 2
-      text: ""
+      text: 
       next:
-      - Soul06Dia01
-      - Soul06Dia02
-      - Soul06Dia03
       - Soul06Dia04
+      - Soul06Dia03
+      - Soul06Dia02
+      - Soul06Dia01
       requiredEvidenceIds: []
     - nodeId: Soul06Dia01
       type: 1
-      text: "Vincent:\nI\u2019m a hero! A good Samaritan!"
+      text: 'Vincent:
+
+        I''m a hero! A good Samaritan!'
       next:
-      - Soul06Dia02
-      - Soul06Dia03
       - Soul06Dia04
+      - Soul06Dia03
+      - Soul06Dia02
       requiredEvidenceIds: []
     - nodeId: Soul06Dia02
       type: 1
-      text: "Vincent:\nI was... I was, uh, rushing into the fire to save people, and on my last trip, the smoke was too thick, and I... I didn\u2019t make it out. What a waste!"
+      text: 'Vincent:
+
+        I was... I was, uh, rushing into the fire to save
+        people, and on my last trip, the smoke was too thick, and I... I didn''t
+        make it out. What a waste!'
       next:
-      - Soul06Dia01
-      - Soul06Dia03
       - Soul06Dia04
+      - Soul06Dia03
+      - Soul06Dia01
       requiredEvidenceIds: []
     - nodeId: Soul06Dia03
       type: 1
-      text: "Vincent:\nSaving people! Three of them!"
+      text: 'Vincent:
+
+        Saving people! Three of them!'
       next:
-      - Soul06Dia01
-      - Soul06Dia02
       - Soul06Dia04
+      - Soul06Dia02
+      - Soul06Dia01
       requiredEvidenceIds: []
     - nodeId: Soul06Dia04
       type: 1
-      text: "Vincent:\nInnocent! I saved three people! Don\u2019t they owe me something?"
+      text: 'Vincent:
+
+        Innocent! I saved three people! Don''t they owe me
+        something?'
       next:
-      - Soul06Dia01
-      - Soul06Dia02
       - Soul06Dia03
+      - Soul06Dia02
+      - Soul06Dia01
       requiredEvidenceIds: []
     - nodeId: Soul06Dia05
       type: 0
-      text: "Whose jewelry is this?"
+      text: Whose jewelry is this?
       next:
       - Soul06Dia05R
       requiredEvidenceIds:
       - Soul06Item01
     - nodeId: Soul06Dia05R
       type: 1
-      text: "Vincent:\nThat\u2019s... that belongs to the family I saved. Yeah, the old lady asked me to hold onto it. Go ask her if you don\u2019t believe me!"
+      text: 'Vincent:
+
+        That''s... that belongs to the family I saved. Yeah,
+        the old lady asked me to hold onto it. Go ask her if you don''t believe me!'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul06Dia06
       type: 0
-      text: "Whose cigarette case is this?"
+      text: Whose cigarette case is this?
       next:
       - Soul06Dia06R
       requiredEvidenceIds:
       - Soul06Item05
     - nodeId: Soul06Dia06R
       type: 1
-      text: "Vincent:\n...Found it! Found it on the stairs next to some old guy! He was already dead anyway, cane all broken. No point letting it go to waste."
+      text: 'Vincent:
+
+        ...Found it! Found it on the stairs next to some old
+        guy! He was already dead anyway, cane all broken. No point letting it go
+        to waste.'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul06Dia07
       type: 0
-      text: "Was your last trip back really to save someone?"
+      text: Was your last trip back really to save someone?
       next:
       - Soul06Dia07R
       requiredEvidenceIds: []
     - nodeId: Soul06Dia07R
       type: 1
-      text: "Vincent:\n...I was going to... yes, I... I meant to save someone. I really did mean to."
+      text: 'Vincent:
+
+        ...I was going to... yes, I... I meant to save someone.
+        I really did mean to.'
       next: []
       requiredEvidenceIds: []
-  skullRemark: "Hehe, tricky one to judge, huh?"
-  luciferRemark: "Money and life \u2014 shall we weigh them on the same moral scale?\r\n\r\n(Pause.)\r\n\r\nThree lives saved. One life lost to greed. What\u2019s the exchange rate?\r\n\r\nHe had a chance to be something better. For one brief moment, he was. And then...\r\n\r\n(Soft laugh.)\r\n\r\nOld habits."
+  skullRemark: Hehe, tricky one to judge, huh?
+  luciferRemark: 'Money and life - shall we weigh them on the same moral scale?
+
+    
+
+    (Pause.)
+
+    
+
+    Three
+    lives saved. One life lost to greed. What''s the exchange rate?
+
+    
+
+    He
+    had a chance to be something better. For one brief moment, he was. And then...
+
+    
+
+    (Soft
+    laugh.)
+
+    
+
+    Old habits.'

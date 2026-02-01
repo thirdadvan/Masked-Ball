@@ -20,35 +20,7 @@ MonoBehaviour:
   sin: 3
   deathType: 2
   deathDetail: "Severe burns, died in hospital three days after escaping the fire"
-  backstory: "Richard Grey, forty-two years old, an insurance broker.\r\n\r\nHe lived
-    on the fifth floor with his wife Luna and their ten-year-old son Jesse. They\u2019d
-    been married for almost twenty years \u2014 childhood sweethearts, the kind of
-    love story people told at dinner parties.\r\n\r\nRichard was a good provider.
-    A good husband. A good father. That\u2019s what everyone said. That\u2019s what
-    he believed.\r\n\r\nThe night of the fire, he woke to the smell of smoke and
-    the sound of his son screaming.\r\n\r\nHe didn\u2019t think. He grabbed Jesse,
-    wrapped him in a wet blanket, and ran for the stairs. Luna was right behind them
-    \u2014 she\u2019d taken the fire escape.\r\n\r\nThe stairwell was chaos. Smoke.
-    Heat. People pushing, shoving, stumbling over each other in the dark. Richard
-    held Jesse tight against his chest and shouldered through.\r\n\r\nOn the third
-    floor landing, he ran into the old man.\r\n\r\nHarold Pike. The landlord. Sixty-three
-    years old, bad hip, slower than everyone else. He was blocking the stairs, fumbling
-    with his cane, gasping for breath.\r\n\r\n\u201CMove,\u201D Richard said.\r\n\r\nThe
-    old man didn\u2019t move fast enough.\r\n\r\nRichard didn\u2019t remember making
-    a decision. He just remembered his hands on the old man\u2019s shoulders. He
-    remembered pushing. He remembered the sound Harold made as he tumbled down the
-    stairs \u2014 a wet crack, then silence.\r\n\r\nHe didn\u2019t look back.\r\n\r\nHe
-    got Jesse out. Luna met them on the street, crying, clutching them both. They
-    were alive. They were together.\r\n\r\nRichard\u2019s burns were severe. Third
-    degree across his back and arms. He\u2019d shielded Jesse with his own body when
-    part of the ceiling collapsed.\r\n\r\nHe held on for three days in the burn unit.
-    Jesse sat by his bed the whole time, holding his father\u2019s bandaged hand,
-    telling him about school, about his friends, about the marbles he\u2019d won.\r\n\r\n\u201CTake
-    care of your mother,\u201D Richard told him.\r\n\r\nThose were his last words.\r\n\r\nNo
-    one ever found out about Harold. In the chaos of the fire, no one saw. No one
-    asked. The old man\u2019s death was ruled an accident \u2014 he\u2019d fallen
-    on the stairs while trying to escape.\r\n\r\nRichard took that secret to his
-    grave.\r\n\r\nOr so he thought."
+  backstory: "Richard Grey, forty-two years old, an insurance broker.\r\n\r\nHe lived on the fifth floor with his wife Luna and their ten-year-old son Jesse. They'd been married for almost twenty years - childhood sweethearts, the kind of love story people told at dinner parties.\r\n\r\nRichard was a good provider. A good husband. A good father. That's what everyone said. That's what he believed.\r\n\r\nThe night of the fire, he woke to the smell of smoke and the sound of his son screaming.\r\n\r\nHe didn't think. He grabbed Jesse, wrapped him in a wet blanket, and ran for the stairs. Luna was right behind them - she'd taken the fire escape.\r\n\r\nThe stairwell was chaos. Smoke. Heat. People pushing, shoving, stumbling over each other in the dark. Richard held Jesse tight against his chest and shouldered through.\r\n\r\nOn the third floor landing, he ran into the old man.\r\n\r\nHarold Pike. The landlord. Sixty-three years old, bad hip, slower than everyone else. He was blocking the stairs, fumbling with his cane, gasping for breath.\r\n\r\n\"Move,\" Richard said.\r\n\r\nThe old man didn't move fast enough.\r\n\r\nRichard didn't remember making a decision. He just remembered his hands on the old man's shoulders. He remembered pushing. He remembered the sound Harold made as he tumbled down the stairs - a wet crack, then silence.\r\n\r\nHe didn't look back.\r\n\r\nHe got Jesse out. Luna met them on the street, crying, clutching them both. They were alive. They were together.\r\n\r\nRichard's burns were severe. Third degree across his back and arms. He'd shielded Jesse with his own body when part of the ceiling collapsed.\r\n\r\nHe held on for three days in the burn unit. Jesse sat by his bed the whole time, holding his father's bandaged hand, telling him about school, about his friends, about the marbles he'd won.\r\n\r\n\"Take care of your mother,\" Richard told him.\r\n\r\nThose were his last words.\r\n\r\nNo one ever found out about Harold. In the chaos of the fire, no one saw. No one asked. The old man's death was ruled an accident - he'd fallen on the stairs while trying to escape.\r\n\r\nRichard took that secret to his grave.\r\n\r\nOr so he thought."
   pocketItems:
   - id: Soul05Item01
     displayName: "Family Photo"
@@ -62,12 +34,12 @@ MonoBehaviour:
     relatedEvidenceIds: []
   - id: Soul05Item03
     displayName: "Broken Cane"
-    description: "Snapped in half. Not his \u2014 it belonged to someone else."
+    description: "Snapped in half. Not his - it belonged to someone else."
     icon: {fileID: 0}
     relatedEvidenceIds: []
   - id: Soul05Item04
     displayName: "Marbles"
-    description: "A handful of glass marbles. His son gave them to him \u2014 won them from kids at school."
+    description: "A handful of glass marbles. His son gave them to him - won them from kids at school."
     icon: {fileID: 0}
     relatedEvidenceIds: []
   dialogue:
@@ -77,42 +49,42 @@ MonoBehaviour:
       type: 2
       text: ""
       next:
-      - Soul05Dia01
-      - Soul05Dia02
-      - Soul05Dia03
       - Soul05Dia04
+      - Soul05Dia03
+      - Soul05Dia02
+      - Soul05Dia01
       requiredEvidenceIds: []
     - nodeId: Soul05Dia01
       type: 1
       text: "Richard:\nRichard Grey. A father."
       next:
-      - Soul05Dia02
-      - Soul05Dia03
       - Soul05Dia04
+      - Soul05Dia03
+      - Soul05Dia02
       requiredEvidenceIds: []
     - nodeId: Soul05Dia02
       type: 1
-      text: "Richard:\nThe fire. I carried my son out, but my burns were too severe. Didn\u2019t make it in the hospital."
+      text: "Richard:\nThe fire. I carried my son out, but my burns were too severe. Didn't make it in the hospital."
       next:
-      - Soul05Dia01
-      - Soul05Dia03
       - Soul05Dia04
+      - Soul05Dia03
+      - Soul05Dia01
       requiredEvidenceIds: []
     - nodeId: Soul05Dia03
       type: 1
-      text: "Richard:\nWhat any father would do. You\u2019re a mother, aren\u2019t you? If it were you, you\u2019d have done the same."
+      text: "Richard:\nWhat any father would do. You're a mother, aren't you? If it were you, you'd have done the same."
       next:
-      - Soul05Dia01
-      - Soul05Dia02
       - Soul05Dia04
+      - Soul05Dia02
+      - Soul05Dia01
       requiredEvidenceIds: []
     - nodeId: Soul05Dia04
       type: 1
       text: "Richard:\nInnocent."
       next:
-      - Soul05Dia01
-      - Soul05Dia02
       - Soul05Dia03
+      - Soul05Dia02
+      - Soul05Dia01
       requiredEvidenceIds: []
     - nodeId: Soul05Dia05
       type: 0
@@ -123,7 +95,7 @@ MonoBehaviour:
       - Soul05Item03
     - nodeId: Soul05Dia05R
       type: 1
-      text: "Richard:\n...I don\u2019t know. I didn\u2019t notice."
+      text: "Richard:\n...I don't know. I didn't notice."
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul05Dia06
@@ -147,8 +119,8 @@ MonoBehaviour:
       - Soul05Item01
     - nodeId: Soul05Dia07R
       type: 1
-      text: "Richard:\n...Yes. Luna. We\u2019ve known each other since we were kids. Almost twenty years married now. And Jesse... he\u2019ll take care of his mother."
+      text: "Richard:\n...Yes. Luna. We've known each other since we were kids. Almost twenty years married now. And Jesse... he'll take care of his mother."
       next: []
       requiredEvidenceIds: []
-  skullRemark: "Ugh, Boss, this... we can\u2019t let emotions get in the way, right?"
-  luciferRemark: "The greatest love sometimes grows the ugliest claws.\r\n\r\n(Pause.)\r\n\r\nHe didn\u2019t hesitate. Not for a second. His child or a stranger \u2014 it wasn\u2019t even a choice.\r\n\r\nAnd that\u2019s the tragedy, isn\u2019t it? He\u2019s not wrong. Any parent would understand.\r\n\r\nBut understanding doesn\u2019t erase the old man\u2019s broken neck."
+  skullRemark: "Ugh, Boss, this... we can't let emotions get in the way, right?"
+  luciferRemark: "The greatest love sometimes grows the ugliest claws.\r\n\r\n(Pause.)\r\n\r\nHe didn't hesitate. Not for a second. His child or a stranger - it wasn't even a choice.\r\n\r\nAnd that's the tragedy, isn't it? He's not wrong. Any parent would understand.\r\n\r\nBut understanding doesn't erase the old man's broken neck."

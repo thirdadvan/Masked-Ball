@@ -20,40 +20,132 @@ MonoBehaviour:
   sin: 4
   deathType: 3
   deathDetail: Fell down the stairs while fleeing, broke her neck
-  backstory: "Rita Santos, twenty-eight years old, a temporary babysitter.\r\n\r\nShe
-    wasn\u2019t supposed to be there that night. She\u2019d gotten the job through
-    an agency \u2014 last-minute booking, some woman who needed someone to watch
-    her kid while she worked the night shift. Easy money.\r\n\r\nRita had never met
-    the kid before. Emily, seven years old, quiet, clingy. The kind of kid who looked
-    at you with big eyes and asked too many questions.\r\n\r\n\u201CWhere\u2019s
-    Mommy?\u201D\r\n\r\n\u201CWorking.\u201D\r\n\r\n\u201CWhen is she coming back?\u201D\r\n\r\n\u201CLate.\u201D\r\n\r\nRita
-    made her dinner \u2014 microwave mac and cheese, the orange kind \u2014 and let
-    her watch cartoons. The kid kept talking to her stuffed rabbit, having whole
-    conversations with it. Weird, but whatever.\r\n\r\nThen her phone buzzed.\r\n\r\nMarco.
-    Her on-again, off-again boyfriend. He was at a bar down the street. He wanted
-    to see her. Tonight.\r\n\r\nRita looked at the kid, already drowsy on the couch.
-    It would only be an hour. Maybe two. The kid would be asleep the whole time.
-    She\u2019d never know.\r\n\r\nShe put Emily to bed. The girl was being difficult
-    \u2014 kept saying she wanted to go find her mommy. Rita didn\u2019t have time
-    for this.\r\n\r\n\u201CStay in your room,\u201D she said. \u201CDon\u2019t come
-    out.\u201D\r\n\r\nShe locked the door. Just in case. Kids wandered. It wasn\u2019t
-    safe.\r\n\r\nThe girl was still calling for her when Rita left.\r\n\r\nShe\u2019d
-    given her something to help her sleep. Just a little. Crushed up in some candy.
-    The kid would be out in ten minutes.\r\n\r\nRita was at the bar when she heard
-    the sirens.\r\n\r\nShe ran. She ran all the way back to the building, pushed
-    through the crowd, saw the flames pouring from the upper floors. Fourth floor.
-    Where the kid was.\r\n\r\nShe tried to go back in. She really did. But the smoke
-    was so thick, and the heat was so intense, and she could hear people screaming,
-    and she was scared.\r\n\r\nShe ran for the stairs instead. If she could just
-    get out, get away, pretend she was never there\u2014\r\n\r\nShe missed a step.
-    Or someone pushed her. She never knew which.\r\n\r\nShe remembered falling. She
-    remembered the crack of her neck. She remembered lying at the bottom of the stairs,
-    unable to move, watching people step over her.\r\n\r\nThe key to Emily\u2019s
-    room was still in her pocket.\r\n\r\nShe died thinking about Marco."
+  backstory: 'Rita Santos, twenty-eight years old, a temporary babysitter.
+
+    
+
+    She
+    wasn''t supposed to be there that night. She''d gotten the job through an agency
+    - last-minute booking, some woman who needed someone to watch her kid while she
+    worked the night shift. Easy money.
+
+    
+
+    Rita had never met the kid before.
+    Emily, seven years old, quiet, clingy. The kind of kid who looked at you with
+    big eyes and asked too many questions.
+
+    
+
+    "Where''s Mommy?"
+
+    
+
+    "Working."
+
+    
+
+    "When
+    is she coming back?"
+
+    
+
+    "Late."
+
+    
+
+    Rita made her dinner -
+    microwave mac and cheese, the orange kind - and let her watch cartoons. The kid
+    kept talking to her stuffed rabbit, having whole conversations with it. Weird,
+    but whatever.
+
+    
+
+    Then her phone buzzed.
+
+    
+
+    Marco. Her on-again,
+    off-again boyfriend. He was at a bar down the street. He wanted to see her. Tonight.
+
+    
+
+    Rita
+    looked at the kid, already drowsy on the couch. It would only be an hour. Maybe
+    two. The kid would be asleep the whole time. She''d never know.
+
+    
+
+    She
+    put Emily to bed. The girl was being difficult - kept saying she wanted to go
+    find her mommy. Rita didn''t have time for this.
+
+    
+
+    "Stay in your room,"
+    she said. "Don''t come out."
+
+    
+
+    She locked the door. Just in case.
+    Kids wandered. It wasn''t safe.
+
+    
+
+    The girl was still calling for her
+    when Rita left.
+
+    
+
+    She''d given her something to help her sleep. Just
+    a little. Crushed up in some candy. The kid would be out in ten minutes.
+
+    
+
+    Rita
+    was at the bar when she heard the sirens.
+
+    
+
+    She ran. She ran all the
+    way back to the building, pushed through the crowd, saw the flames pouring from
+    the upper floors. Fourth floor. Where the kid was.
+
+    
+
+    She tried to
+    go back in. She really did. But the smoke was so thick, and the heat was so intense,
+    and she could hear people screaming, and she was scared.
+
+    
+
+    She ran
+    for the stairs instead. If she could just get out, get away, pretend she was
+    never there -
+
+    
+
+    She missed a step. Or someone pushed her. She never
+    knew which.
+
+    
+
+    She remembered falling. She remembered the crack of
+    her neck. She remembered lying at the bottom of the stairs, unable to move, watching
+    people step over her.
+
+    
+
+    The key to Emily''s room was still in her
+    pocket.
+
+    
+
+    She died thinking about Marco.'
   pocketItems:
   - id: Soul08Item01
     displayName: Room Key
-    description: "The key to Emily\u2019s room. She never went back to unlock it."
+    description: The key to Emily's room. She never went back to unlock it.
     icon: {fileID: 21300000, guid: 54bc5894d339a4d4ab8d1e06e303a068, type: 3}
     relatedEvidenceIds: []
   - id: Soul08Item02
@@ -69,8 +161,8 @@ MonoBehaviour:
     relatedEvidenceIds: []
   - id: Soul08Item04
     displayName: Napkin with Number
-    description: "A phone number scrawled on a cocktail napkin. Not Marco\u2019s."
-    icon: {fileID: 0}
+    description: A phone number scrawled on a cocktail napkin. Not Marco's.
+    icon: {fileID: 21300000, guid: dd49704199f0824479af5d2120202c47, type: 3}
     relatedEvidenceIds: []
   dialogue:
     startNodeId: Soul08Start
@@ -79,10 +171,10 @@ MonoBehaviour:
       type: 2
       text: 
       next:
-      - Soul08Dia01
-      - Soul08Dia02
-      - Soul08Dia03
       - Soul08Dia04
+      - Soul08Dia03
+      - Soul08Dia02
+      - Soul08Dia01
       requiredEvidenceIds: []
     - nodeId: Soul08Dia01
       type: 1
@@ -90,18 +182,20 @@ MonoBehaviour:
 
         Rita Santos. I was... I was the babysitter. Temporary.'
       next:
-      - Soul08Dia02
-      - Soul08Dia03
       - Soul08Dia04
+      - Soul08Dia03
+      - Soul08Dia02
       requiredEvidenceIds: []
     - nodeId: Soul08Dia02
       type: 1
-      text: "Rita:\nI... I don\u2019t know. I\u2019m already dead, just leave me
-        alone..."
+      text: 'Rita:
+
+        I... I don''t know. I''m already dead, just leave me
+        alone...'
       next:
-      - Soul08Dia01
-      - Soul08Dia03
       - Soul08Dia04
+      - Soul08Dia03
+      - Soul08Dia01
       requiredEvidenceIds: []
     - nodeId: Soul08Dia03
       type: 1
@@ -110,32 +204,36 @@ MonoBehaviour:
         I heard the alarm and ran back, but the fire was too
         big... what could I do?'
       next:
-      - Soul08Dia01
-      - Soul08Dia02
       - Soul08Dia04
+      - Soul08Dia02
+      - Soul08Dia01
       requiredEvidenceIds: []
     - nodeId: Soul08Dia04
       type: 1
-      text: "Rita:\nI\u2019m just a babysitter! Who knew there\u2019d be a fire?
-        I didn\u2019t do anything wrong! None of this was supposed to happen! Why
-        am I the one who died?!"
+      text: 'Rita:
+
+        I''m just a babysitter! Who knew there''d be a fire?
+        I didn''t do anything wrong! None of this was supposed to happen! Why am
+        I the one who died?!'
       next:
-      - Soul08Dia01
-      - Soul08Dia02
       - Soul08Dia03
+      - Soul08Dia02
+      - Soul08Dia01
       requiredEvidenceIds: []
     - nodeId: Soul08Dia05
       type: 0
-      text: "Why did you lock the child\u2019s door?"
+      text: Why did you lock the child's door?
       next:
       - Soul08Dia05R
       requiredEvidenceIds:
       - Soul08Item01
     - nodeId: Soul08Dia05R
       type: 1
-      text: "Rita:\nShe said she wanted to go find her mommy. I was afraid she\u2019d
-        wander off. Locking the door was to keep her safe! There are bars everywhere
-        around here!"
+      text: 'Rita:
+
+        She said she wanted to go find her mommy. I was afraid
+        she''d wander off. Locking the door was to keep her safe! There are bars
+        everywhere around here!'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul08Dia06
@@ -147,7 +245,9 @@ MonoBehaviour:
       - Soul08Item02
     - nodeId: Soul08Dia06R
       type: 1
-      text: "Rita:\nMy boyfriend... what\u2019s it to you?"
+      text: 'Rita:
+
+        My boyfriend... what''s it to you?'
       next: []
       requiredEvidenceIds: []
     - nodeId: Soul08Dia07
@@ -165,7 +265,27 @@ MonoBehaviour:
       next: []
       requiredEvidenceIds: []
   skullRemark: Huh, coward or brave, they all end up dead anyway... OW! Boss!
-  luciferRemark: "At least she\u2019s seen plenty in her lifetime.\r\n\r\n(Pause.)\r\n\r\nShe
+  luciferRemark: 'At least she''s seen plenty in her lifetime.
+
+    
+
+    (Pause.)
+
+    
+
+    She
     had the key the whole time. She could have gone back. She could have unlocked
-    that door.\r\n\r\nBut she was scared. And then she was dead.\r\n\r\n(Soft laugh.)\r\n\r\nI
-    wonder if she\u2019ll ever stop thinking about that key."
+    that door.
+
+    
+
+    But she was scared. And then she was dead.
+
+    
+
+    (Soft
+    laugh.)
+
+    
+
+    I wonder if she''ll ever stop thinking about that key.'

@@ -49,42 +49,42 @@ MonoBehaviour:
       type: 2
       text: ""
       next:
-      - Soul09Dia01
-      - Soul09Dia02
-      - Soul09Dia03
       - Soul09Dia04
+      - Soul09Dia03
+      - Soul09Dia02
+      - Soul09Dia01
       requiredEvidenceIds: []
     - nodeId: Soul09Dia01
       type: 1
       text: "Marcus:\nMarcus Lee. Delivery driver."
       next:
-      - Soul09Dia02
-      - Soul09Dia03
       - Soul09Dia04
+      - Soul09Dia03
+      - Soul09Dia02
       requiredEvidenceIds: []
     - nodeId: Soul09Dia02
       type: 1
       text: "Marcus:\nSaw the fire while passing by. Ran in. And then... well."
       next:
-      - Soul09Dia01
-      - Soul09Dia03
       - Soul09Dia04
+      - Soul09Dia03
+      - Soul09Dia01
       requiredEvidenceIds: []
     - nodeId: Soul09Dia03
       type: 1
       text: "Marcus:\nCarried out two old people. Heard there were more people trapped upstairs. So I went back up."
       next:
-      - Soul09Dia01
-      - Soul09Dia02
       - Soul09Dia04
+      - Soul09Dia02
+      - Soul09Dia01
       requiredEvidenceIds: []
     - nodeId: Soul09Dia04
       type: 1
       text: "Marcus:\nI don't know. ...Innocent, I guess? I never did anything to hurt anyone."
       next:
-      - Soul09Dia01
-      - Soul09Dia02
       - Soul09Dia03
+      - Soul09Dia02
+      - Soul09Dia01
       requiredEvidenceIds: []
     - nodeId: Soul09Dia05
       type: 0
