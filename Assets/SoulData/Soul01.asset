@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a69d97e0f8cf4adda5715fcbd3c2871, type: 3}
-  m_Name: Soul_Profile1
+  m_Name: Soul01
   m_EditorClassIdentifier: 
   characterID: 1
   displayName: Arsonist
@@ -23,23 +23,23 @@ MonoBehaviour:
     the fire spread
   backstory: 
   pocketItems:
-  - id: Soul06Item01
+  - id: Soul06Item1
     displayName: 'Matchbox '
     description: "High-end cigar matches in a wooden case, stamped with the logo
       of a private members\u2019 cigar lounge. "
     icon: {fileID: 0}
     relatedEvidenceIds: []
-  - id: Soul06Item02
+  - id: Soul06Item2
     displayName: 'Insurance Policy Copy '
     description: 'Neatly folded, edges worn from repeated handling '
     icon: {fileID: 0}
     relatedEvidenceIds: []
-  - id: Soul06Item03
+  - id: Soul06Item3
     displayName: "Caf\xE9 Receipt "
     description: 'Dated the night of the fire, timestamp: 2:47 a.m. '
     icon: {fileID: 0}
     relatedEvidenceIds: []
-  - id: Soul06Item04
+  - id: Soul06Item4
     displayName: 'Business Card Holder '
     description: 'Genuine leather, embossed with his name in cursive '
     icon: {fileID: 0}
@@ -51,28 +51,51 @@ MonoBehaviour:
       type: 0
       text: Who are you?
       next:
-      - Soul01Dia02
-      requiredEvidenceIds: []
-    - nodeId: Soul01Dia02
-      type: 1
-      text: "\u201CJean-Pierre Morineau, wine merchant. Ah, but none of that matters
-        anymore.\u201D"
-      next:
-      - Soul01Dia03
-      requiredEvidenceIds: []
-    - nodeId: Soul01Dia04
-      type: 1
-      text: "(He instinctively reaches for a business card \u2014 then realizes there\u2019s
-        no need here.) \r\n\r\n\u201CAh\u2026 former wine merchant. A bit of trouble
-        in business, you see. The economy isn\u2019t kind, and young people no longer
-        know how to appreciate good wine\u2026\u201D "
-      next:
       - Soul01Dia05
       requiredEvidenceIds: []
-    - nodeId: Soul01Dia06
+    - nodeId: Soul01Dia02
       type: 0
-      text: "(He sighs, sorrow measured and appropriate.) \r\n\r\n\u201CBut none
-        of that matters now, does it? We\u2019re all here already.\u201D "
+      text: ' How did you die? '
+      next:
+      - Soul01Dia06
+      requiredEvidenceIds: []
+    - nodeId: Soul01Dia03
+      type: 0
+      text: ' What were you doing before you died? '
+      next:
+      - Soul01Dia07
+      requiredEvidenceIds: []
+    - nodeId: Soul01Dia04
+      type: 0
+      text: Are you guilty or innocent?
+      next:
+      - Soul01Dia08
+      requiredEvidenceIds: []
+    - nodeId: Soul01Dia05
+      type: 1
+      text: "\"Jean-Pierre Morineau, wine merchant. Alas, but none of that matters
+        anymore.\" \n\u201CBut none of that matters now, does it? We\u2019re all
+        here already.\u201D "
+      next: []
+      requiredEvidenceIds: []
+    - nodeId: Soul01Dia06
+      type: 1
+      text: '"(He touches his chest) Heart attack. That night I went out for a walk,
+        didn''t expect to encounter a fire. I wanted to help, but my heart couldn''t
+        take it, and I just..." '
+      next: []
+      requiredEvidenceIds: []
+    - nodeId: Soul01Dia07
+      type: 1
+      text: '"Oh, I was processing documents, then insomnia drove me out for a walk.
+        You know, Madame, this city is full of noisy commoners... The city is very
+        quiet at three in the morning." '
+      next: []
+      requiredEvidenceIds: []
+    - nodeId: Soul01Dia08
+      type: 1
+      text: '"Oh my God! I swear, I never in my life thought to harm anyone. Everything
+        I did was just to give my family a better life. What''s wrong with that?" '
       next: []
       requiredEvidenceIds: []
   skullRemark: " \u201CWonder if his corpse is gonna get hung on a streetlamp.\u201D"

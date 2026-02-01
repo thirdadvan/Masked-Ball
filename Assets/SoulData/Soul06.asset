@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a69d97e0f8cf4adda5715fcbd3c2871, type: 3}
-  m_Name: Soul_Profile6
+  m_Name: Soul06
   m_EditorClassIdentifier: 
   characterID: 6
   displayName: "\u60EF\u72AF"
