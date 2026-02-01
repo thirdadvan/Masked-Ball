@@ -1,20 +1,20 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class RoleSelectUI : MonoBehaviour
 {
     [Header("Focus Layer")]
-    public GameObject focusLayer;
-    public Image dim;
-    public Image focusSprite; // FocusIcon 的 Image 组件
+    public GameObject focusLayer;   // FocusLayer
+    public Image dim;               // FocusLayer/Dim
+    public Image focusSprite;         // FocusLayer/FocusIcon
 
     [Header("Close")]
-    public Button closeButton;
+    public Button closeButton;      // CloseButton
 
     [Header("Scale")]
-    public float focusedScale = 3f;
+    public float focusedScale = 3f; // 放大倍率，可调
 
+    private SoulProfile soulProfile;
     void Awake()
     {
         HideFocus();
@@ -23,17 +23,18 @@ public class RoleSelectUI : MonoBehaviour
             closeButton.onClick.AddListener(HideFocus);
     }
 
-    // ✅ 修改：接收 Sprite 参数
-    public void ShowRole(Sprite roleSprite)
+    public void ShowRole(SoulProfile sp, Sprite cs)
     {
+        soulProfile = sp;
         if (focusLayer != null) focusLayer.SetActive(true);
         if (dim != null) dim.gameObject.SetActive(true);
 
         if (focusSprite != null)
         {
             focusSprite.gameObject.SetActive(true);
-            focusSprite.sprite = roleSprite; // ✅ 设置传入的 Sprite
+            focusSprite.sprite = cs;
 
+            // 居中 + 放大（FocusIcon 要是 Middle Center Anchor）
             var rt = focusSprite.rectTransform;
             rt.anchoredPosition = Vector2.zero;
             rt.localScale = Vector3.one * focusedScale;
@@ -44,7 +45,7 @@ public class RoleSelectUI : MonoBehaviour
 
     public void HideFocus()
     {
-        UnityEngine.Debug.Log("hide focus");
+        Debug.Log("hide focus");
         if (focusSprite != null) focusSprite.gameObject.SetActive(false);
         if (dim != null) dim.gameObject.SetActive(false);
         if (focusLayer != null) focusLayer.SetActive(false);

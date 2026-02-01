@@ -1,35 +1,30 @@
-using MaskedBall.CharacterCore;
 using System.Collections;
 using System.Collections.Generic;
-
 using UnityEngine;
+using MaskedBall.CharacterCore;
 
 public class Character : MonoBehaviour
 {
+
     public Vector2Int CellIndex { get; private set; }
 
     public SoulProfile profile;
+
     public RoleSelectUI CharacterFocus;
 
-    private SpriteRenderer spriteRenderer; // ✅ 添加
+    private Sprite characterSprite;
 
     public void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>(); // ✅ 获取 SpriteRenderer
+        characterSprite = GetComponent<SpriteRenderer>().sprite;
     }
-
     public void OnClick()
     {
         Debug.Log($"Clicked character: {profile.displayName}");
 
-        // ✅ 传递当前角色的 Sprite
-        if (CharacterFocus != null && spriteRenderer != null)
-        {
-            CharacterFocus.ShowRole(spriteRenderer.sprite);
-        }
-
+        CharacterFocus.ShowRole(profile, characterSprite);
         // TODO:
-        // 1. 打开角色面板 ✅ 已实现
+        // 1. 打开角色面板
         // 2. 显示道具 / 穿着
         // 3. 高亮 / 选中
     }
@@ -37,6 +32,18 @@ public class Character : MonoBehaviour
     public void SetCellIndex(Vector2Int idx)
     {
         CellIndex = idx;
-        Debug.Log(idx);
+
+        if (idx.y == 0)
+        {
+            GetComponent<SpriteRenderer>().sortingOrder = 0;
+        }
+        else if(idx.y == 1)
+        {
+            GetComponent<SpriteRenderer>().sortingOrder = 6;
+        }
+        else if (idx.y == 1)
+        {
+            GetComponent<SpriteRenderer>().sortingOrder = 6;
+        }
     }
 }
